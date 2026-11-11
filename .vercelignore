@@ -1,0 +1,8 @@
+# photo originals and review material — the site uses the processed files in public/img
+assets/src
+assets/archive
+assets/*.jpg
+assets/*.md
+docs/references
+scripts/.shots
+.next-build

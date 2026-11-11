@@ -1,0 +1,377 @@
+[
+ {
+  "key": "pov-hero",
+  "file": "../../../website/assets/src/pov-hands-tools.jpg",
+  "title": "Scheduled Maintenance System at Coney Island Yard",
+  "creator": "MTAPhotos",
+  "creatorUrl": "https://www.flickr.com/photos/61135621@N03",
+  "source": "Flickr",
+  "sourceUrl": "https://www.flickr.com/photos/61135621@N03/9689842232",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "alt": "Overhead view of technicians with gloved hands servicing a subway train truck",
+  "focal": [
+   45,
+   50
+  ],
+  "hotspots": [
+   {
+    "x": 28.5,
+    "y": 49,
+    "w": 14,
+    "h": 11,
+    "label": "Valve manifold"
+   },
+   {
+    "x": 9,
+    "y": 66,
+    "w": 19.5,
+    "h": 19,
+    "label": "Truck wheel"
+   }
+  ],
+  "notes": "MTA New York City Transit, Coney Island Yard. Elevated over-the-shoulder view rather than true first-person; faces small or turned down. Same photo series as rail-technician-hands, rail-traction-motor and mro-workshop. Licence re-checked on the Flickr photo page (creativecommons.org/licenses/by/2.0/)."
+ },
+ {
+  "key": "pov-data",
+  "file": "../../../website/assets/src/rail-technician-hands.jpg",
+  "title": "Scheduled Maintenance System at Coney Island Yard",
+  "creator": "MTAPhotos",
+  "creatorUrl": "https://www.flickr.com/photos/61135621@N03",
+  "source": "Flickr",
+  "sourceUrl": "https://www.flickr.com/photos/61135621@N03/9686603069",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "alt": "Gloved hands of technicians servicing a subway train truck with tools and hoses",
+  "focal": [
+   50,
+   40
+  ],
+  "hotspots": [
+   {
+    "x": 50,
+    "y": 10,
+    "w": 16.5,
+    "h": 25,
+    "label": "Valve manifold"
+   },
+   {
+    "x": 39.5,
+    "y": 14,
+    "w": 9,
+    "h": 12.5,
+    "label": "Centre bearing"
+   }
+  ],
+  "notes": "Cropped to the lower 64% of the original (removes three faces and a forklift brand logo); credit should say \"cropped\". MTA New York City Transit, Coney Island Yard scheduled maintenance. Licence re-checked on the Flickr photo page (creativecommons.org/licenses/by/2.0/)."
+ },
+ {
+  "key": "gap-skilled",
+  "file": "../../../website/assets/src/rail-depot-pit.jpg",
+  "title": "ICE-Betriebswerk Köln - Programm RESET-9819",
+  "creator": "Raimond Spekking",
+  "creatorUrl": "https://www.wikidata.org/wiki/Q108103612",
+  "source": "Wikimedia Commons",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:ICE-Betriebswerk_K%C3%B6ln_-_Programm_RESET-9819.jpg",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "alt": "Inspection pit beneath a high-speed train, with a worker in protective overalls under the carriage",
+  "focal": [
+   42,
+   45
+  ],
+  "hotspots": [
+   {
+    "x": 12.5,
+    "y": 36.5,
+    "w": 9,
+    "h": 13,
+    "label": "Bogie wheel"
+   },
+   {
+    "x": 44,
+    "y": 27,
+    "w": 51,
+    "h": 11,
+    "label": "Underfloor equipment"
+   }
+  ],
+  "notes": "Same Cologne ICE depot set. Worker seen from behind, head hidden inside the underframe. Strong diagonal rail in foreground; left side is busy, so text overlays should sit over a gradient. Licence re-checked on the Commons file page. Author-requested attribution: \"© Raimond Spekking / CC BY-SA 4.0 (via Wikimedia Commons)\"."
+ },
+ {
+  "key": "field-rail",
+  "file": "../../../website/assets/src/rail-track-workers.jpg",
+  "title": "Track Construction Bad Ragaz-Sargans",
+  "creator": "Kecko",
+  "creatorUrl": "https://www.flickr.com/photos/70981241@N00",
+  "source": "Flickr",
+  "sourceUrl": "https://www.flickr.com/photos/70981241@N00/49065256853",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "alt": "Track crew in orange high-visibility gear working on a rail joint at night",
+  "focal": [
+   45,
+   62
+  ],
+  "hotspots": [
+   {
+    "x": 32,
+    "y": 78,
+    "w": 22,
+    "h": 9,
+    "label": "Rail joint"
+   }
+  ],
+  "notes": "Night track work near Sargans, Switzerland. Two standing workers are at medium distance looking down; faces partly visible - borderline, reviewer check. No operator branding. Licence re-checked on the Flickr photo page (creativecommons.org/licenses/by/2.0/)."
+ },
+ {
+  "key": "field-water",
+  "file": "../../../website/assets/src/water-pipe-repair.jpg",
+  "title": "Water Main 9th and F St",
+  "creator": "Jeremy Ferguson",
+  "creatorUrl": "https://www.flickr.com/photos/196387622@N07",
+  "source": "Flickr",
+  "sourceUrl": "https://www.flickr.com/photos/196387622@N07/52581341303",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "alt": "Utility crew uses a water lance and vacuum hose to expose a buried water main",
+  "focal": [
+   55,
+   60
+  ],
+  "hotspots": [
+   {
+    "x": 38,
+    "y": 58,
+    "w": 31,
+    "h": 36,
+    "label": "Pipe excavation"
+   },
+   {
+    "x": 66,
+    "y": 60,
+    "w": 23,
+    "h": 31,
+    "label": "Vacuum hose"
+   }
+  ],
+  "notes": "Public Domain Mark (City of Davis public works uploader). Cropped: right 17% removed to drop a legible city logo on a jacket; credit should say \"cropped\". Faces hidden under helmets. Licence re-checked on the Flickr photo page (creativecommons.org/publicdomain/mark/1.0/). Public Domain Mark 1.0 applied by the Flickr uploader (not a U.S. federal account) - provenance rests on the uploader's mark; reviewer check."
+ },
+ {
+  "key": "field-marine",
+  "file": "../../../website/assets/src/marine-hull-inspection.jpg",
+  "title": "welding hull plate",
+  "creator": "NCDOTcommunications",
+  "creatorUrl": "https://www.flickr.com/photos/39320593@N03",
+  "source": "Flickr",
+  "sourceUrl": "https://www.flickr.com/photos/39320593@N03/5809202108",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "alt": "Worker seated beneath a ship hull in dry dock, working on a hull plate seam",
+  "focal": [
+   55,
+   45
+  ],
+  "hotspots": [
+   {
+    "x": 44,
+    "y": 32.5,
+    "w": 34,
+    "h": 8,
+    "label": "Hull plate seam"
+   },
+   {
+    "x": 7.5,
+    "y": 60,
+    "w": 10.5,
+    "h": 10.5,
+    "label": "Gas regulator"
+   }
+  ],
+  "notes": "NCDOT Communications (North Carolina DOT ferry division). Shows hull repair rather than inspection or blasting - closest licence-clean match for this P2 thumb. Licence re-checked on the Flickr photo page (creativecommons.org/licenses/by/2.0/)."
+ },
+ {
+  "key": "field-machinery",
+  "file": "../../../website/assets/src/rail-traction-motor.jpg",
+  "title": "Scheduled Maintenance System at Coney Island Yard",
+  "creator": "MTAPhotos",
+  "creatorUrl": "https://www.flickr.com/photos/61135621@N03",
+  "source": "Flickr",
+  "sourceUrl": "https://www.flickr.com/photos/61135621@N03/9689839818",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "alt": "Two technicians guide a traction motor suspended from a hoist above a subway train truck",
+  "focal": [
+   57,
+   45
+  ],
+  "hotspots": [
+   {
+    "x": 45.5,
+    "y": 27.5,
+    "w": 25.5,
+    "h": 32.5,
+    "label": "Traction motor"
+   },
+   {
+    "x": 48.5,
+    "y": 68.5,
+    "w": 13.5,
+    "h": 14,
+    "label": "Truck wheel"
+   }
+  ],
+  "notes": "MTA New York City Transit, Coney Island Yard. Right-hand worker faces camera at mid-distance (not a close-up) - reviewer check. Small partial machine label (\"ROCECO\") in background. Licence re-checked on the Flickr photo page (creativecommons.org/licenses/by/2.0/)."
+ },
+ {
+  "key": "field-oilgas",
+  "file": "../../../website/assets/src/energy-technician.jpg",
+  "title": "NRC inspectors at the emergency diesel generators",
+  "creator": "NRCgov",
+  "creatorUrl": "https://www.flickr.com/photos/69383258@N08",
+  "source": "Flickr",
+  "sourceUrl": "https://www.flickr.com/photos/69383258@N08/15855170700",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "alt": "Inspectors in hard hats reviewing a checklist beside an emergency diesel generator",
+  "focal": [
+   50,
+   40
+  ],
+  "hotspots": [
+   {
+    "x": 61,
+    "y": 3,
+    "w": 12,
+    "h": 28,
+    "label": "Fuel injection pumps"
+   },
+   {
+    "x": 83,
+    "y": 3,
+    "w": 16,
+    "h": 42,
+    "label": "Cylinder covers"
+   }
+  ],
+  "notes": "US NRC inspectors at a nuclear plant emergency diesel generator (NRCgov, CC BY 2.0). Cropped (columns 15-100%, rows 47-100%) to remove faces; credit should say \"cropped\". Hard hats are out of frame. Licence re-checked on the Flickr photo page (creativecommons.org/licenses/by/2.0/)."
+ },
+ {
+  "key": "field-grid",
+  "file": "../../../website/assets/src/grid-lineworkers.jpg",
+  "title": "Linemen in bucket trucks replacing a utility pole and transformer",
+  "creator": "joncutrer",
+  "creatorUrl": "https://www.flickr.com/photos/47121680@N00",
+  "source": "Flickr",
+  "sourceUrl": "https://www.flickr.com/photos/47121680@N00/52476646509",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "alt": "Line crews in two bucket trucks replacing a wooden utility pole beside power lines",
+  "focal": [
+   65,
+   35
+  ],
+  "hotspots": [
+   {
+    "x": 86,
+    "y": 2,
+    "w": 13.5,
+    "h": 17,
+    "label": "Pole-top crossarm"
+   },
+   {
+    "x": 74,
+    "y": 23,
+    "w": 7.5,
+    "h": 13,
+    "label": "Bucket platform"
+   }
+  ],
+  "notes": "Small boom-maker names on the aerial lifts; no utility logos legible. Workers in buckets wear hard hats; small in frame. Licence re-checked on the Flickr photo page (creativecommons.org/licenses/by/2.0/)."
+ },
+ {
+  "key": "field-construction",
+  "file": "../../../website/assets/src/heavy-mechanic.jpg",
+  "title": "Heavy Equipment Mechanic and Operations Training, Painting, Pre-Apprentice Training at Anaconda Job Corps Civilian Conservation Center",
+  "creator": "Forest Service - Northern Region",
+  "creatorUrl": "https://www.flickr.com/photos/40882383@N03",
+  "source": "Flickr",
+  "sourceUrl": "https://www.flickr.com/photos/40882383@N03/53553523632",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "alt": "Mechanic in coveralls rigging a diesel engine on chain hoists above a tracked machine",
+  "focal": [
+   50,
+   50
+  ],
+  "hotspots": [
+   {
+    "x": 56.5,
+    "y": 75,
+    "w": 21,
+    "h": 25,
+    "label": "Flywheel ring gear"
+   },
+   {
+    "x": 41,
+    "y": 46,
+    "w": 44,
+    "h": 30,
+    "label": "Engine block"
+   }
+  ],
+  "notes": "US Forest Service (public domain mark), Anaconda Job Corps heavy-equipment mechanic training. Cropped to landscape (rows 2-62% kept); mechanic in profile wearing a mask; small EXIT sign. Licence re-checked on the Flickr photo page (creativecommons.org/publicdomain/mark/1.0/). Public Domain Mark 1.0 (U.S. federal government work)."
+ },
+ {
+  "key": "close",
+  "file": "../../../website/assets/src/marine-hull-welding.jpg",
+  "title": "170516-N-GL340-071",
+  "creator": "CNE CNA C6F",
+  "creatorUrl": "https://www.flickr.com/photos/94966166@N02",
+  "source": "Flickr",
+  "sourceUrl": "https://www.flickr.com/photos/94966166@N02/34655561906",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "alt": "Welder in a protective helmet welding overhead beneath a steel hull structure, sparks flying",
+  "focal": [
+   30,
+   40
+  ],
+  "hotspots": [
+   {
+    "x": 14.5,
+    "y": 21,
+    "w": 15,
+    "h": 16,
+    "label": "Weld seam"
+   }
+  ],
+  "notes": "US Navy photo (Naval Forces Europe-Africa Flickr) - public domain as a US federal government work. No uniform, insignia or weapons visible; welder wears a leather jacket and helmet. Flickr account \"CNE CNA C6F\" = U.S. Naval Forces Europe-Africa / U.S. Sixth Fleet. Licence re-checked on the Flickr photo page (creativecommons.org/publicdomain/mark/1.0/). Public Domain Mark 1.0 (U.S. federal government work)."
+ },
+ {
+  "key": "capture",
+  "file": "../../../website/assets/src/telecom-climber.jpg",
+  "title": "Buxton Mountain radio tower installation",
+  "creator": "OregonDOT",
+  "creatorUrl": "https://www.flickr.com/photos/28364885@N02",
+  "source": "Flickr",
+  "sourceUrl": "https://www.flickr.com/photos/28364885@N02/13976835716",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "alt": "Three technicians in harnesses and helmets assembling a galvanised lattice radio tower",
+  "focal": [
+   55,
+   50
+  ],
+  "hotspots": [
+   {
+    "x": 49.5,
+    "y": 79,
+    "w": 7,
+    "h": 10,
+    "label": "Bolted brace joint"
+   }
+  ],
+  "notes": "Oregon DOT (CC BY 2.0), Buxton Mountain radio tower installation. Full-body harnesses and lanyards visible; faces hidden. Licence re-checked on the Flickr photo page (creativecommons.org/licenses/by/2.0/)."
+ }
+]

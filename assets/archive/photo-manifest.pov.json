@@ -1,0 +1,120 @@
+[
+ {
+  "key": "pov-hero",
+  "file": "pov-hero.jpg",
+  "title": "St Gallen - Track Welding",
+  "creator": "Kecko",
+  "creatorUrl": "https://www.flickr.com/photos/kecko",
+  "source": "Flickr",
+  "sourceUrl": "https://www.flickr.com/photos/kecko/31223114230/",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "alt": "Close view of a thermite rail weld at a railway switch: a track worker's gloved hand guides a long tool towards the glowing mould beside yellow rail-welding equipment",
+  "focal": [
+   57,
+   50
+  ],
+  "hotspots": [
+   {
+    "x": 46,
+    "y": 36,
+    "w": 23,
+    "h": 38,
+    "label": "Tool tip + glowing thermite weld"
+   },
+   {
+    "x": 36,
+    "y": 0,
+    "w": 10,
+    "h": 17,
+    "label": "Gloved hand"
+   }
+  ],
+  "notes": "Aluminothermic (thermite) rail welding at the new Appenzeller Bahn station, St. Gallen, Switzerland, 2016-12-11. Close standing view of the point of work, looking down beside the welder: gloved hand + tool at the top, glowing mould centre-right, rail fastenings and a yellow hydraulic rail unit. Not a true first-person or over-the-shoulder view; worker shown only as legs in hi-vis trousers, no faces. Small equipment labels only, no brand logos. Rail field, so it differs from pov-hero (engine). It also works as the hero if hands + tool must sit centre-right without a flip. Original 5200 x 3467 (same file on Flickr and on Commons: https://commons.wikimedia.org/wiki/File:St_Gallen_-_Track_Welding_(31223114230).jpg). Licence re-checked on the Flickr photo page (creativecommons.org/licenses/by/2.0/)."
+ },
+ {
+  "key": "pov-data",
+  "file": "pov-data.jpg",
+  "title": "Worker holds a wrench while inspecting machinery in a workshop",
+  "creator": "Nenad Stojković (Shixart1985)",
+  "creatorUrl": "https://commons.wikimedia.org/wiki/User:Shixart1985",
+  "source": "Wikimedia Commons",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Worker_holds_a_wrench_while_inspecting_machinery_in_a_workshop.jpg",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "alt": "First-person view of a mechanic's hand raising an open-end wrench towards the belt pulleys of an old engine in a workshop",
+  "focal": [
+   38,
+   60
+  ],
+  "hotspots": [
+   {
+    "x": 17,
+    "y": 56,
+    "w": 21,
+    "h": 44,
+    "label": "Hand + open-end wrench"
+   },
+   {
+    "x": 36,
+    "y": 28,
+    "w": 15,
+    "h": 21,
+    "label": "Wrench jaw at engine pulley"
+   }
+  ],
+  "notes": "True first-person frame (camera at the worker's eye line, own hand entering from the bottom), but not rail and not a tight match to the brief: the hand is bare (no glove) and is holding the wrench up to the engine rather than turning a bolt. Hand + wrench sit left of centre (x 17-51 %), so with copy on the left a horizontal flip would be needed to put them in the right half; that flip would be an edit to credit (CC BY 2.0 allows it). Location not stated in the file; the photographer is a Serbia-based Commons contributor (Europe). Taken 2020-10-07, 5897 x 3937. No faces; only small embossed maker text on the wrench. Shallow depth of field, moody, reads well in greyscale. Uploaded by the author as own work ({{self}} + {{Cc-by-2.0}}); licence re-checked on the Commons file page. No true-POV rail photo was found in Commons or Openverse (Openverse search was mostly returning 504 errors). For a rail hero with the point of work in the right half, use pov-data (Kecko, St Gallen thermite weld) instead."
+ },
+ {
+  "key": "everyday-pov",
+  "file": "everyday-pov.jpg",
+  "title": "Fresh vegetables are being chopped for a hearty stew in a cozy kitchen",
+  "creator": "Nenad Stojković (Shixart1985)",
+  "creatorUrl": "https://commons.wikimedia.org/wiki/User:Shixart1985",
+  "source": "Wikimedia Commons",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fresh_vegetables_are_being_chopped_for_a_hearty_stew_in_a_cozy_kitchen.jpg",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "alt": "Overhead first-person view of hands cutting a potato on a yellow chopping board, surrounded by vegetables and a pot of chopped potatoes and carrots",
+  "focal": [
+   40,
+   62
+  ],
+  "hotspots": [
+   {
+    "x": 20,
+    "y": 62,
+    "w": 30,
+    "h": 38,
+    "label": "Hands + knife on potato"
+   }
+  ],
+  "notes": "Home kitchen, 2020-09-26; location not stated (photographer is Serbia-based; any region is fine for this slot). Overhead view with the cook's own hands entering from the bottom edge, so it reads as first-person. The top of a child's head is visible at the bottom-right corner (no face) and there is a children's cartoon plate on the right; no brand logos. Landscape 5044 x 3367. Uploaded by the author as own work ({{self}} + {{Cc-by-2.0}}); licence re-checked on the Commons file page."
+ },
+ {
+  "key": "close",
+  "file": "close.jpg",
+  "title": "Thermite rail welding 32",
+  "creator": "Cjp24",
+  "creatorUrl": "https://commons.wikimedia.org/wiki/User:Cjp24",
+  "source": "Wikimedia Commons",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thermite_rail_welding_32.jpg",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "alt": "Track worker in a hi-vis vest and respirator grinding a freshly welded rail at night, sparks flying under a floodlight",
+  "focal": [
+   52,
+   55
+  ],
+  "hotspots": [
+   {
+    "x": 41,
+    "y": 60,
+    "w": 19,
+    "h": 24,
+    "label": "Gloved hands + angle grinder on rail"
+   }
+  ],
+  "notes": "Night track renewal, Neuvy-sur-Loire to Nevers line: grinding the outer face of a thermite weld, Port Aubry near Villechaud, Cosne-Cours-sur-Loire (Nièvre), France, 2017-07-13, 01:04. Dark frame with sparks and floodlight haze; plenty of black space for closing copy. Face partly visible in profile but covered by a respirator and safety glasses; leather gloves, gaiters and hi-vis vest; no hard hat. No logos. Shot on a compact camera, so there is visible noise at 100 %; fine at slide size. 3471 x 2829 (close to 5:4). Own work ({{self|cc-by-sa-4.0}}); licence re-checked on the Commons file page."
+ }
+]

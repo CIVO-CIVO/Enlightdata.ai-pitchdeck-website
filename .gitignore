@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+.DS_Store
+.env*
+.data
+/scripts/.shots
+.next-build
+.vercel
+
+# kept out of the public repo
+# - the owner's design references (other brands' mockups; not part of the site)
+/docs/references/
+# - rejected photos, and an alternate without recorded credits
+/assets/src/rejected/
+/assets/src/alt/field-construction-tunnel-lemminkainen.jpg

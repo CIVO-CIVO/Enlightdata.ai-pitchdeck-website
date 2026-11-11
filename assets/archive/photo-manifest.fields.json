@@ -1,0 +1,126 @@
+[
+  {
+    "key": "field-rail",
+    "file": "field-rail.jpg",
+    "title": "MTA Prepares for Winter Storm",
+    "creator": "Marc A. Hermann / MTA (Metropolitan Transportation Authority of the State of New York)",
+    "creatorUrl": "https://www.flickr.com/photos/mtaphotos/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/mtaphotos/50723589951/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "alt": "A subway car equipment maintainer in a blue hard hat, safety glasses and white work gloves kneels beside the truck (bogie) of a New York subway car and works on the third-rail shoe beam, fitting a yellow ice-scraper shoe.",
+    "focal": [52, 40],
+    "hotspots": [
+      { "x": 36, "y": 31, "w": 20, "h": 20, "label": "Gloved hands on shoe-beam mount" },
+      { "x": 40, "y": 52, "w": 11, "h": 13, "label": "Ice-scraper shoe" }
+    ],
+    "notes": "Coney Island Maintenance Facility, Brooklyn, New York, USA; 2020-12-15. MTA New York City Transit Car Equipment Maintainers installing ice-scraper shoes on an R160 train before a winter storm (depot bogie work). Face in profile behind a COVID-era face mask and safety glasses - not dominant. Small legible text: red maker plate on the truck frame (top centre, 'Kawasaki') and 'Princeton Tec' on the headlamp strap. 4887 x 3464. Same file on Commons: https://commons.wikimedia.org/wiki/File:MTA_Prepares_for_Winter_Storm_(50723589951).jpg. Licence re-checked on the Flickr photo page (creativecommons.org/licenses/by/2.0) and on the Commons file page (cc-by-2.0). Author-requested attribution: \"Marc A. Hermann / MTA\""
+  },
+  {
+    "key": "field-water",
+    "file": "field-water.jpg",
+    "title": "USACE continues repairs at 17th Street Canal PCCP, 6 March 2024 - 1",
+    "creator": "Team New Orleans, U.S. Army Corps of Engineers",
+    "creatorUrl": "https://www.flickr.com/photos/37671998@N05/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/37671998@N05/53572231348/",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "alt": "Seen from behind, a contractor in a yellow hard hat, clear face shield, work gloves and hi-vis vest grinds the steel suction intake inside a pump bay at a New Orleans canal pumping station, sparks spraying across the curved metal wall.",
+    "focal": [60, 45],
+    "hotspots": [
+      { "x": 52, "y": 34, "w": 18, "h": 26, "label": "Gloved hands + angle grinder" }
+    ],
+    "notes": "17th Street Canal Permanent Canal Closures and Pumps (PCCP) station, New Orleans, Louisiana, USA; 2024-03-06. Per the USACE caption, workers grind the formed suction intake adapter in the bay of Pump 4 to prepare it for anode studs (pump-station maintenance). Worker is a construction contractor, not military; no face visible. Small logos: 'Kiewit' on the hard hat, Nike swoosh on the hoodie sleeve; vest print 'Think! Safety - Nobody gets hurt'. Proper PPE (hard hat, full face shield, gloves). Caveat: sparks inside a steel pipe read as metalwork more than 'water' - the card label should name pump stations. 4847 x 3225. US federal government work (Flickr: Public Domain Mark 1.0; Commons: PD-USGov-Military-Army-USACE, https://commons.wikimedia.org/wiki/File:USACE_continues_repairs_at_17th_Street_Canal_PCCP,_6_March_2024_-_1.jpg). Licence re-checked on the Flickr photo page and on the Commons file page."
+  },
+  {
+    "key": "field-marine",
+    "file": "field-marine.jpg",
+    "title": "Vlakmeting",
+    "creator": "S.J. de Waard",
+    "creatorUrl": "https://commons.wikimedia.org/wiki/User:Stunteltje",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vlakmeting.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Working from a pit beneath the hull of a barge in a covered dry dock, an inspector in red coveralls presses an ultrasonic probe against the bottom plating with one raised hand and reads the thickness gauge held in the other.",
+    "focal": [52, 48],
+    "hotspots": [
+      { "x": 53, "y": 27, "w": 12, "h": 16, "label": "Hand + ultrasonic probe on hull plate" },
+      { "x": 33, "y": 59, "w": 11, "h": 18, "label": "Thickness gauge readout" }
+    ],
+    "notes": "Bottom-plate thickness survey ('vlakmeting') of the barge Stella Maris during its 2013 refit, Netherlands (sibling files in Category:Stella Maris refit 2013 place the refit at the Jochem Smit yard, Hardinxveld-Giessendam); 2013-05-07, Nikon D90. Dry-dock inspection with hands + instrument. Face in profile, partly visible - not dominant. No logos. PPE caveat: no hard hat (covered dock, inspector seated in an inspection pit). 4288 x 2848. Licence re-checked on the Commons file page: {{Self|Cc-by-sa-3.0|GFDL}} (own work); the author's attribution template asks for the credit line below (it names CC-BY-SA-4.0 although the file is tagged 3.0 - credit as requested, licence CC BY-SA 3.0). Author-requested attribution: \"© S.J. de Waard / CC-BY-SA-4.0 (via Wikimedia Commons)\""
+  },
+  {
+    "key": "field-machinery",
+    "file": "field-machinery.jpg",
+    "title": "Elizabeth Engine Replacement",
+    "creator": "U.S. Army Corps of Engineers Norfolk District",
+    "creatorUrl": "https://www.flickr.com/photos/armyengineersnorfolk/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/armyengineersnorfolk/8247685778/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "alt": "In a vessel's engine room, contractors guide a new white marine diesel engine into place on chain hoists; a gloved hand in the foreground steadies a fitting on the engine while a mechanic in a sticker-covered hard hat works the chains behind it.",
+    "focal": [58, 55],
+    "hotspots": [
+      { "x": 53, "y": 58, "w": 18, "h": 28, "label": "Gloved hand on engine fitting" },
+      { "x": 49, "y": 22, "w": 12, "h": 14, "label": "Mechanic positioning the engine" }
+    ],
+    "notes": "Chesapeake, Virginia, USA; 2012-10-25. Per the USACE caption, contractors from Advanced Integrated Technology install twin Iveco marine propulsion diesels aboard the Corps vessel (dredge) Elizabeth - marine diesel inside a boat's engine room. Civilian contractors, no military insignia or uniforms. Faces: background mechanic in profile, foreground mechanic cut at the right edge - not dominant. Small text: 'Made in Italy' cast on the exhaust manifold; stickers on the hard hat. 5184 x 3456. Licence re-checked: the Flickr photo page shows CC BY 2.0; the Commons file page (https://commons.wikimedia.org/wiki/File:Elizabeth_Engine_Replacement_(8247685778).jpg) tags it cc-by-2.0 and PD-USGov-Military-Army-USACE (US federal government work)."
+  },
+  {
+    "key": "field-oilgas",
+    "file": "field-oilgas.jpg",
+    "title": "Besøk Troll 18",
+    "creator": "Tommy Ellingsen / Norsk olje og gass (now Offshore Norge)",
+    "creatorUrl": "https://www.flickr.com/photos/olfnorge/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/olfnorge/30149703431/",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "alt": "Two offshore workers in hi-vis coveralls, hard hats with ear defenders and gloves rig orange chain hoists and a ratchet strap around a yellow steel column on the deck of a North Sea platform, the sea horizon behind them.",
+    "focal": [50, 45],
+    "hotspots": [
+      { "x": 44, "y": 24, "w": 16, "h": 30, "label": "Gloved hands on chain hoist + strap" }
+    ],
+    "notes": "Troll field installation, Norwegian North Sea; 2016-10-07 (site visit by the industry association Norsk olje og gass). Rigging / lifting preparation on deck. Both workers seen from behind, no faces; no company logos visible. 5474 x 3649. Same file on Commons: https://commons.wikimedia.org/wiki/File:Bes%C3%B8k_Troll_18_(30149703431).jpg. Licence re-checked on the Flickr photo page (creativecommons.org/licenses/by-sa/2.0; account now named 'Offshore Norge') and on the Commons file page (cc-by-sa-2.0). Author-requested attribution: \"Foto: Tommy Ellingsen, Norsk olje og gass\""
+  },
+  {
+    "key": "field-grid",
+    "file": "field-grid.jpg",
+    "title": "2026-04-02 09 50 26 Public Service, Electric and Gas company lineworkers working on a utility pole along Mercer County Route 634 (Parkway Avenue) in Ewing Township, Mercer County, New Jersey",
+    "creator": "Famartin",
+    "creatorUrl": "https://commons.wikimedia.org/wiki/User:Famartin",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-04-02_09_50_26_Public_Service,_Electric_and_Gas_company_lineworkers_working_on_a_utility_pole_along_Mercer_County_Route_634_(Parkway_Avenue)_in_Ewing_Township,_Mercer_County,_New_Jersey.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "Two lineworkers in bucket trucks work at the top of a wooden utility pole, rubber-gloved hands on the crossarm, with orange line hoses covering the conductors around them against a grey sky.",
+    "focal": [52, 42],
+    "hotspots": [
+      { "x": 49, "y": 28, "w": 18, "h": 16, "label": "Rubber-gloved hands at crossarm" },
+      { "x": 32, "y": 30, "w": 13, "h": 18, "label": "Second lineworker at insulators" }
+    ],
+    "notes": "Parkway Avenue (Mercer County Route 634), Ewing Township, New Jersey, USA (GPS 40.2644, -74.8030); 2026-04-02. Utility (PSE&G) crew doing distribution-line work with rubber cover-ups. Faces mostly hidden by hard hats and safety glasses. Small text only ('CAUTION' decal on a bucket); no utility logo legible. Phone telephoto, 4032 x 3024 - slightly soft at 100 %, fine at card size. Licence re-checked on the Commons file page (own work, {{self|cc-by-sa-4.0}})."
+  },
+  {
+    "key": "field-construction",
+    "file": "field-construction.jpg",
+    "title": "Lemminkäinen Eikemo-utbyggingen",
+    "creator": "Lemminkäinen Norge AS",
+    "creatorUrl": null,
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lemmink%C3%A4inen_Eikemo-utbyggingen.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "In a rock tunnel, a worker in a hi-vis jacket, white helmet with headlamp, ear defenders, respirator and gloves feeds a long black hose towards the rock face while coloured leads lie on the wet tunnel floor.",
+    "focal": [45, 45],
+    "hotspots": [
+      { "x": 30, "y": 34, "w": 22, "h": 21, "label": "Gloved hands feeding the hose" },
+      { "x": 74, "y": 68, "w": 12, "h": 12, "label": "Hose tip at the rock face" }
+    ],
+    "notes": "Tunnel works ('tunnelvirksomhet') at the Eikemo development, Norway; 2012-06-13 (Nikon D3). Full PPE; face mostly covered by the respirator. No logos. 4256 x 2832. Caveats: (1) no heavy machine in frame - hands-on tunnel construction rather than an equipment mechanic; alternate 1 shows a crew with a paver if heavy equipment must be visible. (2) Licence: CC BY-SA 3.0 stated on the Commons file page (re-checked); uploaded 2013-05-07 by account Fbjorlo as part of a batch of Lemminkäinen Norge corporate photos (logo, head office, CEO portrait), source and author given as 'Lemminkäinen Norge AS'; no VRT permission ticket on the page - medium licence confidence."
+  }
+]

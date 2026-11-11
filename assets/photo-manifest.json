@@ -1,0 +1,482 @@
+[
+  {
+    "key": "pov-hero",
+    "file": "pov-hero.jpg",
+    "title": "Sprengmeister-verkabelt-Sprengladungen",
+    "creator": "Peterbuild",
+    "creatorUrl": "https://commons.wikimedia.org/wiki/User:Peterbuild",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sprengmeister-verkabelt-Sprengladungen.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "In a rail tunnel under construction, a shotfirer in a hard hat with a cap lamp leans into the rock face and checks the wiring of the blast charges with gloved hands",
+    "focal": [
+      47,
+      55
+    ],
+    "flop": true,
+    "soften": 0.7,
+    "hotspots": [
+      {
+        "x": 42,
+        "y": 64,
+        "w": 13,
+        "h": 20,
+        "label": "Gloved hands + detonator leads"
+      },
+      {
+        "x": 56,
+        "y": 25,
+        "w": 6,
+        "h": 9,
+        "label": "Cap lamp on the hard hat"
+      }
+    ],
+    "notes": "Hero since 11 Nov 2026 (the owner rejected the St Gallen thermite weld; that file is in assets/src/rejected/). Obertürkheim tunnel (Wangen–Obertürkheim section of Stuttgart 21, a rail project), Stuttgart, Germany; 2018-04-23 10:06 (EXIF, Canon EOS 7D). 3000×2000, exactly the 3000 px minimum. Caption (de): final check of the blast charges during drill-and-blast tunnelling. Why: one skilled worker, close side view, cap lamp on the hard hat, gloved hands on the detonator leads at the rock face, dim warm tunnel light. Mirror it (flop) so he leans in from the right; nothing readable in the frame. Caveats: the subject is explosives, which some investors may find edgy; face visible in profile; bare forearms (T-shirt) and no eye protection visible; slightly soft at 100 %. Licence re-checked on the Commons file page: {{self|cc-by-sa-4.0}}, own work by User:Peterbuild. There is no VRT ticket, and the page links an earlier copy on the uploader's own web host (now a dead link), so licence confidence is medium-high."
+  },
+  {
+    "key": "pov-data",
+    "file": "pov-data.jpg",
+    "title": "Worker holds a wrench while inspecting machinery in a workshop",
+    "creator": "Nenad Stojković (Shixart1985)",
+    "creatorUrl": "https://commons.wikimedia.org/wiki/User:Shixart1985",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Worker_holds_a_wrench_while_inspecting_machinery_in_a_workshop.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "alt": "First-person view of a mechanic's hand raising an open-end wrench towards the belt pulleys of an old engine in a workshop",
+    "focal": [
+      38,
+      60
+    ],
+    "hotspots": [
+      {
+        "x": 17,
+        "y": 56,
+        "w": 21,
+        "h": 44,
+        "label": "Hand + open-end wrench"
+      },
+      {
+        "x": 36,
+        "y": 28,
+        "w": 15,
+        "h": 21,
+        "label": "Wrench jaw at engine pulley"
+      }
+    ],
+    "notes": "True first-person frame (camera at the worker's eye line, own hand entering from the bottom), but not rail and not a tight match to the brief: the hand is bare (no glove) and is holding the wrench up to the engine rather than turning a bolt. Hand + wrench sit left of centre (x 17-51 %), so with copy on the left a horizontal flip would be needed to put them in the right half; that flip would be an edit to credit (CC BY 2.0 allows it). Location not stated in the file; the photographer is a Serbia-based Commons contributor (Europe). Taken 2020-10-07, 5897 x 3937. No faces; only small embossed maker text on the wrench. Shallow depth of field, moody, reads well in greyscale. Uploaded by the author as own work ({{self}} + {{Cc-by-2.0}}); licence re-checked on the Commons file page. No true-POV rail photo was found in Commons or Openverse (Openverse search was mostly returning 504 errors). For a rail hero with the point of work in the right half, use pov-data (Kecko, St Gallen thermite weld) instead."
+  },
+  {
+    "key": "everyday-pov",
+    "file": "everyday-pov.jpg",
+    "title": "Fresh vegetables are being chopped for a hearty stew in a cozy kitchen",
+    "creator": "Nenad Stojković (Shixart1985)",
+    "creatorUrl": "https://commons.wikimedia.org/wiki/User:Shixart1985",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fresh_vegetables_are_being_chopped_for_a_hearty_stew_in_a_cozy_kitchen.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "alt": "Overhead first-person view of hands cutting a potato on a yellow chopping board, surrounded by vegetables and a pot of chopped potatoes and carrots",
+    "focal": [
+      40,
+      62
+    ],
+    "hotspots": [
+      {
+        "x": 20,
+        "y": 62,
+        "w": 30,
+        "h": 38,
+        "label": "Hands + knife on potato"
+      }
+    ],
+    "notes": "Home kitchen, 2020-09-26; location not stated (photographer is Serbia-based; any region is fine for this slot). Overhead view with the cook's own hands entering from the bottom edge, so it reads as first-person. The top of a child's head is visible at the bottom-right corner (no face) and there is a children's cartoon plate on the right; no brand logos. Landscape 5044 x 3367. Uploaded by the author as own work ({{self}} + {{Cc-by-2.0}}); licence re-checked on the Commons file page."
+  },
+  {
+    "key": "close",
+    "file": "close.jpg",
+    "title": "Thermite rail welding 32",
+    "creator": "Cjp24",
+    "creatorUrl": "https://commons.wikimedia.org/wiki/User:Cjp24",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thermite_rail_welding_32.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "Track worker in a hi-vis vest and respirator grinding a freshly welded rail at night, sparks flying under a floodlight",
+    "focal": [
+      52,
+      55
+    ],
+    "hotspots": [
+      {
+        "x": 41,
+        "y": 60,
+        "w": 19,
+        "h": 24,
+        "label": "Gloved hands + angle grinder on rail"
+      }
+    ],
+    "notes": "Night track renewal, Neuvy-sur-Loire to Nevers line: grinding the outer face of a thermite weld, Port Aubry near Villechaud, Cosne-Cours-sur-Loire (Nièvre), France, 2017-07-13, 01:04. Dark frame with sparks and floodlight haze; plenty of black space for closing copy. Face partly visible in profile but covered by a respirator and safety glasses; leather gloves, gaiters and hi-vis vest; no hard hat. No logos. Shot on a compact camera, so there is visible noise at 100 %; fine at slide size. 3471 x 2829 (close to 5:4). Own work ({{self|cc-by-sa-4.0}}); licence re-checked on the Commons file page."
+  },
+  {
+    "key": "field-rail",
+    "file": "field-rail.jpg",
+    "title": "MTA Prepares for Winter Storm",
+    "creator": "Marc A. Hermann / MTA (Metropolitan Transportation Authority of the State of New York)",
+    "creatorUrl": "https://www.flickr.com/photos/mtaphotos/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/mtaphotos/50723589951/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "alt": "A subway car equipment maintainer in a blue hard hat, safety glasses and white work gloves kneels beside the truck (bogie) of a New York subway car and works on the third-rail shoe beam, fitting a yellow ice-scraper shoe.",
+    "focal": [
+      52,
+      40
+    ],
+    "hotspots": [
+      {
+        "x": 36,
+        "y": 31,
+        "w": 20,
+        "h": 20,
+        "label": "Gloved hands on shoe-beam mount"
+      },
+      {
+        "x": 40,
+        "y": 52,
+        "w": 11,
+        "h": 13,
+        "label": "Ice-scraper shoe"
+      }
+    ],
+    "notes": "Coney Island Maintenance Facility, Brooklyn, New York, USA; 2020-12-15. MTA New York City Transit Car Equipment Maintainers installing ice-scraper shoes on an R160 train before a winter storm (depot bogie work). Face in profile behind a COVID-era face mask and safety glasses - not dominant. Small legible text: red maker plate on the truck frame (top centre, 'Kawasaki') and 'Princeton Tec' on the headlamp strap. 4887 x 3464. Same file on Commons: https://commons.wikimedia.org/wiki/File:MTA_Prepares_for_Winter_Storm_(50723589951).jpg. Licence re-checked on the Flickr photo page (creativecommons.org/licenses/by/2.0) and on the Commons file page (cc-by-2.0). Author-requested attribution: \"Marc A. Hermann / MTA\""
+  },
+  {
+    "key": "field-water",
+    "file": "field-water.jpg",
+    "title": "USACE continues repairs at 17th Street Canal PCCP, 6 March 2024 - 1",
+    "creator": "Team New Orleans, U.S. Army Corps of Engineers",
+    "creatorUrl": "https://www.flickr.com/photos/37671998@N05/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/37671998@N05/53572231348/",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "alt": "Seen from behind, a contractor in a yellow hard hat, clear face shield, work gloves and hi-vis vest grinds the steel suction intake inside a pump bay at a New Orleans canal pumping station, sparks spraying across the curved metal wall.",
+    "focal": [
+      60,
+      45
+    ],
+    "hotspots": [
+      {
+        "x": 52,
+        "y": 34,
+        "w": 18,
+        "h": 26,
+        "label": "Gloved hands + angle grinder"
+      }
+    ],
+    "notes": "17th Street Canal Permanent Canal Closures and Pumps (PCCP) station, New Orleans, Louisiana, USA; 2024-03-06. Per the USACE caption, workers grind the formed suction intake adapter in the bay of Pump 4 to prepare it for anode studs (pump-station maintenance). Worker is a construction contractor, not military; no face visible. Small logos: 'Kiewit' on the hard hat, Nike swoosh on the hoodie sleeve; vest print 'Think! Safety - Nobody gets hurt'. Proper PPE (hard hat, full face shield, gloves). Caveat: sparks inside a steel pipe read as metalwork more than 'water' - the card label should name pump stations. 4847 x 3225. US federal government work (Flickr: Public Domain Mark 1.0; Commons: PD-USGov-Military-Army-USACE, https://commons.wikimedia.org/wiki/File:USACE_continues_repairs_at_17th_Street_Canal_PCCP,_6_March_2024_-_1.jpg). Licence re-checked on the Flickr photo page and on the Commons file page."
+  },
+  {
+    "key": "field-marine",
+    "file": "field-marine.jpg",
+    "title": "Vlakmeting",
+    "creator": "S.J. de Waard",
+    "creatorUrl": "https://commons.wikimedia.org/wiki/User:Stunteltje",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vlakmeting.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Working from a pit beneath the hull of a barge in a covered dry dock, an inspector in red coveralls presses an ultrasonic probe against the bottom plating with one raised hand and reads the thickness gauge held in the other.",
+    "focal": [
+      52,
+      48
+    ],
+    "hotspots": [
+      {
+        "x": 53,
+        "y": 27,
+        "w": 12,
+        "h": 16,
+        "label": "Hand + ultrasonic probe on hull plate"
+      },
+      {
+        "x": 33,
+        "y": 59,
+        "w": 11,
+        "h": 18,
+        "label": "Thickness gauge readout"
+      }
+    ],
+    "notes": "Bottom-plate thickness survey ('vlakmeting') of the barge Stella Maris during its 2013 refit, Netherlands (sibling files in Category:Stella Maris refit 2013 place the refit at the Jochem Smit yard, Hardinxveld-Giessendam); 2013-05-07, Nikon D90. Dry-dock inspection with hands + instrument. Face in profile, partly visible - not dominant. No logos. PPE caveat: no hard hat (covered dock, inspector seated in an inspection pit). 4288 x 2848. Licence re-checked on the Commons file page: {{Self|Cc-by-sa-3.0|GFDL}} (own work); the author's attribution template asks for the credit line below (it names CC-BY-SA-4.0 although the file is tagged 3.0 - credit as requested, licence CC BY-SA 3.0). Author-requested attribution: \"© S.J. de Waard / CC-BY-SA-4.0 (via Wikimedia Commons)\""
+  },
+  {
+    "key": "field-machinery",
+    "file": "field-machinery.jpg",
+    "title": "Elizabeth Engine Replacement",
+    "creator": "U.S. Army Corps of Engineers Norfolk District",
+    "creatorUrl": "https://www.flickr.com/photos/armyengineersnorfolk/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/armyengineersnorfolk/8247685778/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "alt": "In a vessel's engine room, contractors guide a new white marine diesel engine into place on chain hoists; a gloved hand in the foreground steadies a fitting on the engine while a mechanic in a sticker-covered hard hat works the chains behind it.",
+    "focal": [
+      58,
+      55
+    ],
+    "hotspots": [
+      {
+        "x": 53,
+        "y": 58,
+        "w": 18,
+        "h": 28,
+        "label": "Gloved hand on engine fitting"
+      },
+      {
+        "x": 49,
+        "y": 22,
+        "w": 12,
+        "h": 14,
+        "label": "Mechanic positioning the engine"
+      }
+    ],
+    "notes": "Chesapeake, Virginia, USA; 2012-10-25. Per the USACE caption, contractors from Advanced Integrated Technology install twin Iveco marine propulsion diesels aboard the Corps vessel (dredge) Elizabeth - marine diesel inside a boat's engine room. Civilian contractors, no military insignia or uniforms. Faces: background mechanic in profile, foreground mechanic cut at the right edge - not dominant. Small text: 'Made in Italy' cast on the exhaust manifold; stickers on the hard hat. 5184 x 3456. Licence re-checked: the Flickr photo page shows CC BY 2.0; the Commons file page (https://commons.wikimedia.org/wiki/File:Elizabeth_Engine_Replacement_(8247685778).jpg) tags it cc-by-2.0 and PD-USGov-Military-Army-USACE (US federal government work)."
+  },
+  {
+    "key": "field-oilgas",
+    "file": "field-oilgas.jpg",
+    "title": "Besøk Troll 18",
+    "creator": "Tommy Ellingsen / Norsk olje og gass (now Offshore Norge)",
+    "creatorUrl": "https://www.flickr.com/photos/olfnorge/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/olfnorge/30149703431/",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "alt": "Two offshore workers in hi-vis coveralls, hard hats with ear defenders and gloves rig orange chain hoists and a ratchet strap around a yellow steel column on the deck of a North Sea platform, the sea horizon behind them.",
+    "focal": [
+      50,
+      45
+    ],
+    "hotspots": [
+      {
+        "x": 44,
+        "y": 24,
+        "w": 16,
+        "h": 30,
+        "label": "Gloved hands on chain hoist + strap"
+      }
+    ],
+    "notes": "Troll field installation, Norwegian North Sea; 2016-10-07 (site visit by the industry association Norsk olje og gass). Rigging / lifting preparation on deck. Both workers seen from behind, no faces; no company logos visible. 5474 x 3649. Same file on Commons: https://commons.wikimedia.org/wiki/File:Bes%C3%B8k_Troll_18_(30149703431).jpg. Licence re-checked on the Flickr photo page (creativecommons.org/licenses/by-sa/2.0; account now named 'Offshore Norge') and on the Commons file page (cc-by-sa-2.0). Author-requested attribution: \"Foto: Tommy Ellingsen, Norsk olje og gass\""
+  },
+  {
+    "key": "field-grid",
+    "file": "field-grid.jpg",
+    "title": "2026-04-02 09 50 26 Public Service, Electric and Gas company lineworkers working on a utility pole along Mercer County Route 634 (Parkway Avenue) in Ewing Township, Mercer County, New Jersey",
+    "creator": "Famartin",
+    "creatorUrl": "https://commons.wikimedia.org/wiki/User:Famartin",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-04-02_09_50_26_Public_Service,_Electric_and_Gas_company_lineworkers_working_on_a_utility_pole_along_Mercer_County_Route_634_(Parkway_Avenue)_in_Ewing_Township,_Mercer_County,_New_Jersey.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "Two lineworkers in bucket trucks work at the top of a wooden utility pole, rubber-gloved hands on the crossarm, with orange line hoses covering the conductors around them against a grey sky.",
+    "focal": [
+      52,
+      42
+    ],
+    "hotspots": [
+      {
+        "x": 49,
+        "y": 28,
+        "w": 18,
+        "h": 16,
+        "label": "Rubber-gloved hands at crossarm"
+      },
+      {
+        "x": 32,
+        "y": 30,
+        "w": 13,
+        "h": 18,
+        "label": "Second lineworker at insulators"
+      }
+    ],
+    "notes": "Parkway Avenue (Mercer County Route 634), Ewing Township, New Jersey, USA (GPS 40.2644, -74.8030); 2026-04-02. Utility (PSE&G) crew doing distribution-line work with rubber cover-ups. Faces mostly hidden by hard hats and safety glasses. Small text only ('CAUTION' decal on a bucket); no utility logo legible. Phone telephoto, 4032 x 3024 - slightly soft at 100 %, fine at card size. Licence re-checked on the Commons file page (own work, {{self|cc-by-sa-4.0}})."
+  },
+  {
+    "key": "gap-skilled",
+    "file": "gap-skilled.jpg",
+    "title": "Besøk Troll 17",
+    "creator": "Tommy Ellingsen / Norsk olje og gass (now Offshore Norge)",
+    "creatorUrl": "https://www.flickr.com/photos/olfnorge/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/olfnorge/29604991774/",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "alt": "Two rope-access technicians in hi-vis hanging on ropes against the outer wall of an offshore platform, under a clear blue sky",
+    "focal": [
+      53,
+      56
+    ],
+    "hotspots": [
+      {
+        "x": 43,
+        "y": 46,
+        "w": 19,
+        "h": 30,
+        "label": "Rope-access technician at work"
+      }
+    ],
+    "notes": "Troll field, Norwegian North Sea; 2016-10-07. Same visit as field-oilgas. Licence re-checked on Flickr and on Commons (https://commons.wikimedia.org/wiki/File:Bes%C3%B8k_Troll_17_(29604991774).jpg) by the field-photo agent. Author-requested attribution: \"Foto: Tommy Ellingsen, Norsk olje og gass\""
+  },
+  {
+    "key": "field-construction",
+    "file": "field-construction.jpg",
+    "title": "Special projects crew repair the road surface at the Mammoth three-way intersection (4)",
+    "creator": "NPS / Jacob W. Frank (Yellowstone National Park)",
+    "creatorUrl": "https://www.flickr.com/photos/yellowstonenps/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/yellowstonenps/48015903252/",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "alt": "Road crew at work with an asphalt paver fed by a dump truck: an operator works the screed controls while a colleague shovels at the auger",
+    "focal": [
+      62,
+      50
+    ],
+    "hotspots": [
+      {
+        "x": 76,
+        "y": 44,
+        "w": 12,
+        "h": 16,
+        "label": "Hands on the screed controls"
+      },
+      {
+        "x": 45,
+        "y": 62,
+        "w": 13,
+        "h": 22,
+        "label": "Shovel at the auger"
+      }
+    ],
+    "edits": [
+      "brand names on the paver blurred"
+    ],
+    "notes": "Mammoth Hot Springs, Yellowstone National Park, Wyoming, USA; 2019-06-06. US federal work (Flickr Public Domain Mark 1.0; Commons PD-USGov-Interior-NPS), re-checked on both by the field-photo agent. Edited: the CAT/AP500E panel, two small badges and a dealer sticker are blurred (listed under edits)."
+  },
+  {
+    "key": "capture",
+    "file": "capture.jpg",
+    "title": "MTA Prepares for Winter Storm",
+    "creator": "Marc A. Hermann / MTA (Metropolitan Transportation Authority of the State of New York)",
+    "creatorUrl": "https://www.flickr.com/photos/mtaphotos/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/mtaphotos/50723589861/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "alt": "Over-the-shoulder view between two blue hard hats onto a maintainer’s gloved hands working at a subway car bogie",
+    "focal": [
+      40,
+      45
+    ],
+    "hotspots": [
+      {
+        "x": 43,
+        "y": 27,
+        "w": 16,
+        "h": 24,
+        "label": "Gloved hands at the shoe-beam mount"
+      }
+    ],
+    "notes": "Coney Island Maintenance Facility, Brooklyn, New York, USA; 2020-12-15 (Flickr 50723589861; Commons mirror https://commons.wikimedia.org/wiki/File:MTA_Prepares_for_Winter_Storm_(50723589861).jpg). Same shoot as field-rail. Small “Princeton Tec” text on both headlamp straps. Licence re-checked on Flickr and Commons by the field-photo agent. Author-requested attribution: \"Marc A. Hermann / MTA\""
+  },
+  {
+    "key": "job-rail",
+    "file": "job-rail.jpg",
+    "title": "SBB - Track worker",
+    "creator": "Kecko",
+    "creatorUrl": "https://www.flickr.com/photos/kecko/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/kecko/26556739706/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "alt": "Track crew in orange hi-vis and helmets working by hand on a railway line: one kneels to measure at the rail while a colleague stands with a measuring rule",
+    "focal": [
+      62,
+      55
+    ],
+    "hotspots": [
+      {
+        "x": 72,
+        "y": 62,
+        "w": 17,
+        "h": 16,
+        "label": "Hands measuring at the rail"
+      },
+      {
+        "x": 46,
+        "y": 46,
+        "w": 12,
+        "h": 13,
+        "label": "Measuring rule in hand"
+      }
+    ],
+    "edits": [
+      "crane lettering blurred"
+    ],
+    "notes": "SBB line in eastern Switzerland, recovery work after a ballast-cleaner derailment; 2016-04-20 (Commons mirror: https://commons.wikimedia.org/wiki/File:SBB_-_Track_worker_(26556739706).jpg). Licence re-checked on Flickr and Commons by the field-photo agent. Edited: the crane hire company and maker lettering are blurred (listed under edits)."
+  },
+  {
+    "key": "job-water",
+    "file": "job-water.jpg",
+    "title": "Rick Sacca, maintenance mechanic, working on a water pump at Lake Village",
+    "creator": "NPS / Jacob W. Frank (Yellowstone National Park)",
+    "creatorUrl": "https://www.flickr.com/photos/yellowstonenps/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/yellowstonenps/53087035030/",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "alt": "Two maintenance mechanics working on the valve and pump assembly of a water pump house",
+    "focal": [
+      52,
+      50
+    ],
+    "hotspots": [
+      {
+        "x": 46,
+        "y": 47,
+        "w": 13,
+        "h": 17,
+        "label": "Hands on the pump fitting"
+      }
+    ],
+    "notes": "Lake Village, Yellowstone National Park, Wyoming, USA; 2023-07-26. US federal work (Flickr Public Domain Mark 1.0; Commons PD-USGov-NPS), re-checked on both by the field-photo agent. NPS uniform patches visible."
+  },
+  {
+    "key": "job-grid",
+    "file": "job-grid.jpg",
+    "title": "WAPA trains new crews",
+    "creator": "Western Area Power Administration",
+    "creatorUrl": "https://www.flickr.com/photos/86561000@N05/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/86561000@N05/31401996996",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "alt": "Lineworkers in harnesses and helmets working on a training structure at height, with lattice transmission towers behind",
+    "focal": [
+      30,
+      40
+    ],
+    "hotspots": [
+      {
+        "x": 12,
+        "y": 20,
+        "w": 11,
+        "h": 15,
+        "label": "Hands and tool at height"
+      }
+    ],
+    "notes": "Boulder City, Nevada, USA; 2016-11-30 (fall-protection training for new line crews). Licence re-checked on the Flickr photo page by the field-photo agent."
+  }
+]

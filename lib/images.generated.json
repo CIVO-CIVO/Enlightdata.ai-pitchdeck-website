@@ -1,0 +1,517 @@
+{
+ "pov-hero": {
+  "w": 2400,
+  "h": 1600,
+  "alt": "In a rail tunnel under construction, a shotfirer in a hard hat with a cap lamp leans into the rock face and checks the wiring of the blast charges with gloved hands",
+  "focal": [
+   53,
+   55
+  ],
+  "hotspots": [
+   {
+    "x": 45,
+    "y": 64,
+    "w": 13,
+    "h": 20,
+    "label": "Gloved hands + detonator leads"
+   },
+   {
+    "x": 38,
+    "y": 25,
+    "w": 6,
+    "h": 9,
+    "label": "Cap lamp on the hard hat"
+   }
+  ],
+  "credit": {
+   "edits": [
+    "mirrored"
+   ],
+   "title": "Sprengmeister-verkabelt-Sprengladungen",
+   "creator": "Peterbuild",
+   "creatorUrl": "https://commons.wikimedia.org/wiki/User:Peterbuild",
+   "source": "Wikimedia Commons",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sprengmeister-verkabelt-Sprengladungen.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
+ "pov-data": {
+  "w": 2400,
+  "h": 1602,
+  "alt": "First-person view of a mechanic's hand raising an open-end wrench towards the belt pulleys of an old engine in a workshop",
+  "focal": [
+   38,
+   60
+  ],
+  "hotspots": [
+   {
+    "x": 17,
+    "y": 56,
+    "w": 21,
+    "h": 44,
+    "label": "Hand + open-end wrench"
+   },
+   {
+    "x": 36,
+    "y": 28,
+    "w": 15,
+    "h": 21,
+    "label": "Wrench jaw at engine pulley"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "Worker holds a wrench while inspecting machinery in a workshop",
+   "creator": "Nenad Stojković (Shixart1985)",
+   "creatorUrl": "https://commons.wikimedia.org/wiki/User:Shixart1985",
+   "source": "Wikimedia Commons",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Worker_holds_a_wrench_while_inspecting_machinery_in_a_workshop.jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
+ },
+ "everyday-pov": {
+  "w": 2400,
+  "h": 1602,
+  "alt": "Overhead first-person view of hands cutting a potato on a yellow chopping board, surrounded by vegetables and a pot of chopped potatoes and carrots",
+  "focal": [
+   40,
+   62
+  ],
+  "hotspots": [
+   {
+    "x": 20,
+    "y": 62,
+    "w": 30,
+    "h": 38,
+    "label": "Hands + knife on potato"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "Fresh vegetables are being chopped for a hearty stew in a cozy kitchen",
+   "creator": "Nenad Stojković (Shixart1985)",
+   "creatorUrl": "https://commons.wikimedia.org/wiki/User:Shixart1985",
+   "source": "Wikimedia Commons",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fresh_vegetables_are_being_chopped_for_a_hearty_stew_in_a_cozy_kitchen.jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
+ },
+ "close": {
+  "w": 2400,
+  "h": 1956,
+  "alt": "Track worker in a hi-vis vest and respirator grinding a freshly welded rail at night, sparks flying under a floodlight",
+  "focal": [
+   52,
+   55
+  ],
+  "hotspots": [
+   {
+    "x": 41,
+    "y": 60,
+    "w": 19,
+    "h": 24,
+    "label": "Gloved hands + angle grinder on rail"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "Thermite rail welding 32",
+   "creator": "Cjp24",
+   "creatorUrl": "https://commons.wikimedia.org/wiki/User:Cjp24",
+   "source": "Wikimedia Commons",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thermite_rail_welding_32.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
+ "field-rail": {
+  "w": 2400,
+  "h": 1701,
+  "alt": "A subway car equipment maintainer in a blue hard hat, safety glasses and white work gloves kneels beside the truck (bogie) of a New York subway car and works on the third-rail shoe beam, fitting a yellow ice-scraper shoe.",
+  "focal": [
+   52,
+   40
+  ],
+  "hotspots": [
+   {
+    "x": 36,
+    "y": 31,
+    "w": 20,
+    "h": 20,
+    "label": "Gloved hands on shoe-beam mount"
+   },
+   {
+    "x": 40,
+    "y": 52,
+    "w": 11,
+    "h": 13,
+    "label": "Ice-scraper shoe"
+   }
+  ],
+  "credit": {
+   "attribution": "Marc A. Hermann / MTA",
+   "edits": [],
+   "title": "MTA Prepares for Winter Storm",
+   "creator": "Marc A. Hermann / MTA (Metropolitan Transportation Authority of the State of New York)",
+   "creatorUrl": "https://www.flickr.com/photos/mtaphotos/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/mtaphotos/50723589951/",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
+ },
+ "field-water": {
+  "w": 2400,
+  "h": 1597,
+  "alt": "Seen from behind, a contractor in a yellow hard hat, clear face shield, work gloves and hi-vis vest grinds the steel suction intake inside a pump bay at a New Orleans canal pumping station, sparks spraying across the curved metal wall.",
+  "focal": [
+   60,
+   45
+  ],
+  "hotspots": [
+   {
+    "x": 52,
+    "y": 34,
+    "w": 18,
+    "h": 26,
+    "label": "Gloved hands + angle grinder"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "USACE continues repairs at 17th Street Canal PCCP, 6 March 2024 - 1",
+   "creator": "Team New Orleans, U.S. Army Corps of Engineers",
+   "creatorUrl": "https://www.flickr.com/photos/37671998@N05/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/37671998@N05/53572231348/",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  }
+ },
+ "field-marine": {
+  "w": 2400,
+  "h": 1594,
+  "alt": "Working from a pit beneath the hull of a barge in a covered dry dock, an inspector in red coveralls presses an ultrasonic probe against the bottom plating with one raised hand and reads the thickness gauge held in the other.",
+  "focal": [
+   52,
+   48
+  ],
+  "hotspots": [
+   {
+    "x": 53,
+    "y": 27,
+    "w": 12,
+    "h": 16,
+    "label": "Hand + ultrasonic probe on hull plate"
+   },
+   {
+    "x": 33,
+    "y": 59,
+    "w": 11,
+    "h": 18,
+    "label": "Thickness gauge readout"
+   }
+  ],
+  "credit": {
+   "attribution": "© S.J. de Waard / CC-BY-SA-4.0 (via Wikimedia Commons)",
+   "edits": [],
+   "title": "Vlakmeting",
+   "creator": "S.J. de Waard",
+   "creatorUrl": "https://commons.wikimedia.org/wiki/User:Stunteltje",
+   "source": "Wikimedia Commons",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vlakmeting.JPG",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  }
+ },
+ "field-machinery": {
+  "w": 2400,
+  "h": 1600,
+  "alt": "In a vessel's engine room, contractors guide a new white marine diesel engine into place on chain hoists; a gloved hand in the foreground steadies a fitting on the engine while a mechanic in a sticker-covered hard hat works the chains behind it.",
+  "focal": [
+   58,
+   55
+  ],
+  "hotspots": [
+   {
+    "x": 53,
+    "y": 58,
+    "w": 18,
+    "h": 28,
+    "label": "Gloved hand on engine fitting"
+   },
+   {
+    "x": 49,
+    "y": 22,
+    "w": 12,
+    "h": 14,
+    "label": "Mechanic positioning the engine"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "Elizabeth Engine Replacement",
+   "creator": "U.S. Army Corps of Engineers Norfolk District",
+   "creatorUrl": "https://www.flickr.com/photos/armyengineersnorfolk/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/armyengineersnorfolk/8247685778/",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
+ },
+ "field-oilgas": {
+  "w": 2400,
+  "h": 1600,
+  "alt": "Two offshore workers in hi-vis coveralls, hard hats with ear defenders and gloves rig orange chain hoists and a ratchet strap around a yellow steel column on the deck of a North Sea platform, the sea horizon behind them.",
+  "focal": [
+   50,
+   45
+  ],
+  "hotspots": [
+   {
+    "x": 44,
+    "y": 24,
+    "w": 16,
+    "h": 30,
+    "label": "Gloved hands on chain hoist + strap"
+   }
+  ],
+  "credit": {
+   "attribution": "Foto: Tommy Ellingsen, Norsk olje og gass",
+   "edits": [],
+   "title": "Besøk Troll 18",
+   "creator": "Tommy Ellingsen / Norsk olje og gass (now Offshore Norge)",
+   "creatorUrl": "https://www.flickr.com/photos/olfnorge/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/olfnorge/30149703431/",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+  }
+ },
+ "field-grid": {
+  "w": 2400,
+  "h": 1800,
+  "alt": "Two lineworkers in bucket trucks work at the top of a wooden utility pole, rubber-gloved hands on the crossarm, with orange line hoses covering the conductors around them against a grey sky.",
+  "focal": [
+   52,
+   42
+  ],
+  "hotspots": [
+   {
+    "x": 49,
+    "y": 28,
+    "w": 18,
+    "h": 16,
+    "label": "Rubber-gloved hands at crossarm"
+   },
+   {
+    "x": 32,
+    "y": 30,
+    "w": 13,
+    "h": 18,
+    "label": "Second lineworker at insulators"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "2026-04-02 09 50 26 Public Service, Electric and Gas company lineworkers working on a utility pole along Mercer County Route 634 (Parkway Avenue) in Ewing Township, Mercer County, New Jersey",
+   "creator": "Famartin",
+   "creatorUrl": "https://commons.wikimedia.org/wiki/User:Famartin",
+   "source": "Wikimedia Commons",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-04-02_09_50_26_Public_Service,_Electric_and_Gas_company_lineworkers_working_on_a_utility_pole_along_Mercer_County_Route_634_(Parkway_Avenue)_in_Ewing_Township,_Mercer_County,_New_Jersey.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
+ "gap-skilled": {
+  "w": 2400,
+  "h": 1600,
+  "alt": "Two rope-access technicians in hi-vis hanging on ropes against the outer wall of an offshore platform, under a clear blue sky",
+  "focal": [
+   53,
+   56
+  ],
+  "hotspots": [
+   {
+    "x": 43,
+    "y": 46,
+    "w": 19,
+    "h": 30,
+    "label": "Rope-access technician at work"
+   }
+  ],
+  "credit": {
+   "attribution": "Foto: Tommy Ellingsen, Norsk olje og gass",
+   "edits": [],
+   "title": "Besøk Troll 17",
+   "creator": "Tommy Ellingsen / Norsk olje og gass (now Offshore Norge)",
+   "creatorUrl": "https://www.flickr.com/photos/olfnorge/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/olfnorge/29604991774/",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+  }
+ },
+ "field-construction": {
+  "w": 2400,
+  "h": 1600,
+  "alt": "Road crew at work with an asphalt paver fed by a dump truck: an operator works the screed controls while a colleague shovels at the auger",
+  "focal": [
+   62,
+   50
+  ],
+  "hotspots": [
+   {
+    "x": 76,
+    "y": 44,
+    "w": 12,
+    "h": 16,
+    "label": "Hands on the screed controls"
+   },
+   {
+    "x": 45,
+    "y": 62,
+    "w": 13,
+    "h": 22,
+    "label": "Shovel at the auger"
+   }
+  ],
+  "credit": {
+   "edits": [
+    "brand names on the paver blurred"
+   ],
+   "title": "Special projects crew repair the road surface at the Mammoth three-way intersection (4)",
+   "creator": "NPS / Jacob W. Frank (Yellowstone National Park)",
+   "creatorUrl": "https://www.flickr.com/photos/yellowstonenps/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/yellowstonenps/48015903252/",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  }
+ },
+ "capture": {
+  "w": 2400,
+  "h": 1607,
+  "alt": "Over-the-shoulder view between two blue hard hats onto a maintainer’s gloved hands working at a subway car bogie",
+  "focal": [
+   40,
+   45
+  ],
+  "hotspots": [
+   {
+    "x": 43,
+    "y": 27,
+    "w": 16,
+    "h": 24,
+    "label": "Gloved hands at the shoe-beam mount"
+   }
+  ],
+  "credit": {
+   "attribution": "Marc A. Hermann / MTA",
+   "edits": [],
+   "title": "MTA Prepares for Winter Storm",
+   "creator": "Marc A. Hermann / MTA (Metropolitan Transportation Authority of the State of New York)",
+   "creatorUrl": "https://www.flickr.com/photos/mtaphotos/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/mtaphotos/50723589861/",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
+ },
+ "job-rail": {
+  "w": 2400,
+  "h": 1600,
+  "alt": "Track crew in orange hi-vis and helmets working by hand on a railway line: one kneels to measure at the rail while a colleague stands with a measuring rule",
+  "focal": [
+   62,
+   55
+  ],
+  "hotspots": [
+   {
+    "x": 72,
+    "y": 62,
+    "w": 17,
+    "h": 16,
+    "label": "Hands measuring at the rail"
+   },
+   {
+    "x": 46,
+    "y": 46,
+    "w": 12,
+    "h": 13,
+    "label": "Measuring rule in hand"
+   }
+  ],
+  "credit": {
+   "edits": [
+    "crane lettering blurred"
+   ],
+   "title": "SBB - Track worker",
+   "creator": "Kecko",
+   "creatorUrl": "https://www.flickr.com/photos/kecko/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/kecko/26556739706/",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
+ },
+ "job-water": {
+  "w": 2400,
+  "h": 1601,
+  "alt": "Two maintenance mechanics working on the valve and pump assembly of a water pump house",
+  "focal": [
+   52,
+   50
+  ],
+  "hotspots": [
+   {
+    "x": 46,
+    "y": 47,
+    "w": 13,
+    "h": 17,
+    "label": "Hands on the pump fitting"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "Rick Sacca, maintenance mechanic, working on a water pump at Lake Village",
+   "creator": "NPS / Jacob W. Frank (Yellowstone National Park)",
+   "creatorUrl": "https://www.flickr.com/photos/yellowstonenps/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/yellowstonenps/53087035030/",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  }
+ },
+ "job-grid": {
+  "w": 2400,
+  "h": 1600,
+  "alt": "Lineworkers in harnesses and helmets working on a training structure at height, with lattice transmission towers behind",
+  "focal": [
+   30,
+   40
+  ],
+  "hotspots": [
+   {
+    "x": 12,
+    "y": 20,
+    "w": 11,
+    "h": 15,
+    "label": "Hands and tool at height"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "WAPA trains new crews",
+   "creator": "Western Area Power Administration",
+   "creatorUrl": "https://www.flickr.com/photos/86561000@N05/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/86561000@N05/31401996996",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
+ }
+}

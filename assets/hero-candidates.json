@@ -1,0 +1,110 @@
+[
+  {
+    "key": "hero-c1",
+    "file": "hero-candidates/hero-c1.jpg",
+    "title": "Sprengmeister-verkabelt-Sprengladungen",
+    "creator": "Peterbuild",
+    "creatorUrl": "https://commons.wikimedia.org/wiki/User:Peterbuild",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sprengmeister-verkabelt-Sprengladungen.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "A shotfirer in a scuffed yellow hard hat with a cap lamp leans into the rock face of a rail tunnel and checks the coloured wiring of the blast charges with gloved hands.",
+    "focal": [47, 55],
+    "flop": true,
+    "hotspots": [
+      { "x": 42, "y": 64, "w": 13, "h": 20, "label": "Gloved hands + detonator leads" },
+      { "x": 56, "y": 25, "w": 6, "h": 9, "label": "Cap lamp on the hard hat" }
+    ],
+    "notes": "Obertürkheim tunnel (Wangen–Obertürkheim section of Stuttgart 21, a rail project), Stuttgart, Germany; 2018-04-23 10:06 (EXIF, Canon EOS 7D). 3000×2000, exactly the 3000 px minimum. Caption (de): final check of the blast charges during drill-and-blast tunnelling. Why: one skilled worker, close side view, cap lamp on the hard hat, gloved hands on the detonator leads at the rock face, dim warm tunnel light. Mirror it (flop) so he leans in from the right; nothing readable in the frame. Caveats: the subject is explosives, which some investors may find edgy; face visible in profile; bare forearms (T-shirt) and no eye protection visible; slightly soft at 100 %. Licence re-checked on the Commons file page: {{self|cc-by-sa-4.0}}, own work by User:Peterbuild. There is no VRT ticket, and the page links an earlier copy on the uploader's own web host (now a dead link), so licence confidence is medium-high."
+  },
+  {
+    "key": "hero-c2",
+    "file": "hero-candidates/hero-c2.jpg",
+    "title": "Electricians at Wolf Creek Power Plant complete fix on a differential",
+    "creator": "U.S. Army Corps of Engineers Nashville District",
+    "creatorUrl": "https://www.flickr.com/photos/nashvillecorps/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/nashvillecorps/9934414725/",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "alt": "Two electricians in white hard hats crouch inside a hydroelectric generator; one holds a caged work lamp in gloved hands while they inspect the copper stator windings.",
+    "focal": [58, 52],
+    "hotspots": [
+      { "x": 41, "y": 65, "w": 23, "h": 24, "label": "Gloved hands + caged work lamp" },
+      { "x": 14, "y": 36, "w": 17, "h": 20, "label": "Gloved hand at the stator-winding repair" }
+    ],
+    "notes": "Wolf Creek Dam power plant, Lake Cumberland, Kentucky, USA (USACE hydropower); 2013-07-24 10:30 (EXIF). 4288×2848. Journeymen electricians Brent Thompson and Jason Green repair generator no. 3 after a ground-fault trip. Why: a tight crew of two, close, inside the machine; gloved hands and a lit caged lamp make a natural thermal hotspot; dark, moody interior; real hydropower maintenance. Do not mirror: 'Think Safety' stickers, glove brand ('Mechanix') and name stickers on the helmets are readable. Caveats: both faces visible in profile (the right one large); small USACE castle emblem on the hard hats (agency logo); right worker wears camouflage-pattern cargo trousers; T-shirts; the actual repair point (foil on the winding, hotspot 2) sits far left, under the copy. Licence re-checked on the Flickr photo page: CC BY-SA 2.0 (posted by USACE Nashville District). As a USACE photo it is probably also a public-domain US Government work, but credit it under CC BY-SA 2.0 to be safe. Sibling frame on Commons (CC BY 2.0, via another USACE account): https://commons.wikimedia.org/wiki/File:Electricians_at_Wolf_Creek_Power_Plant_complete_fix_on_a_differential_(10019330364).jpg — both men reaching into the winding, but hands on the left and not mirrorable."
+  },
+  {
+    "key": "hero-c3",
+    "file": "hero-candidates/hero-c3.jpg",
+    "title": "Gotthard Inside II",
+    "creator": "Kecko",
+    "creatorUrl": "https://www.flickr.com/photos/kecko/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/kecko/22096912884/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "alt": "A track inspector in an orange helmet with a headlamp crouches on the track inside a dark railway tunnel and marks a sleeper in a pool of lamp light, a tablet beside him.",
+    "focal": [62, 58],
+    "hotspots": [
+      { "x": 45, "y": 65, "w": 12, "h": 18, "label": "Hand marking the sleeper in the lamp light" },
+      { "x": 48, "y": 44, "w": 5, "h": 6, "label": "Headlamp" }
+    ],
+    "notes": "Gotthard rail tunnel of 1882 (SBB), Göschenen–Airolo, Switzerland; 2015-10-26 01:01, night shift with both tracks closed (Kecko's series 'Gotthard Inside II', 5/38). 5000×3333. Commons mirror: https://commons.wikimedia.org/wiki/File:Gotthard_Inside_II_(22096912884).jpg. Why: almost black tunnel with one pool of light; one track inspector in helmet + headlamp crouched over the sleeper with a marker; subject already in the right half, so no mirroring. Caveats: per the photographer's caption he is phoning the operations centre in Pollegio (hand at his face), so the pose reads as reflective rather than busy; bare hands; compact-camera noise at 100 %; 'LED LENSER' on the headlamp strap (fine unmirrored). Alternative frame from the same night: 'Gotthard Inside I' (https://www.flickr.com/photos/kecko/22220797795/, CC BY 2.0) — inspector Markus marking a head-check defect on the rail with a folding rule; more hands-on, but the hands sit centre-left (x 31–47 %) and the lettering on the rail rules out mirroring. Licence re-checked on Flickr (CC BY 2.0) and on the Commons mirror."
+  },
+  {
+    "key": "hero-c4",
+    "file": "hero-candidates/hero-c4.jpg",
+    "title": "Track Construction Bad Ragaz-Sargans",
+    "creator": "Kecko",
+    "creatorUrl": "https://www.flickr.com/photos/kecko/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/kecko/49065256853/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "alt": "At night, two track workers with lit helmet lamps kneel at a new rail and work on it with gloved hands, while two colleagues stand by under the overhead line.",
+    "focal": [42, 62],
+    "flop": true,
+    "hotspots": [
+      { "x": 30, "y": 68, "w": 16, "h": 18, "label": "Gloved hands at the new rail + lit helmet lamp" }
+    ],
+    "notes": "Renewal of the SBB double-track line between Bad Ragaz and Sargans, canton of St. Gallen, Switzerland; 2019-11-13 17:42, after dark. 5200×3466. Commons mirror: https://commons.wikimedia.org/wiki/File:Track_Construction_Bad_Ragaz-Sargans_(49065256853).jpg. Caption: cutting the new rails to length. Why: real night track work on rail (the preferred field); lit helmet lamps and gloved hands at the rail; black sky and floodlit orange PPE give strong contrast in black and white. Mirror it (flop) to bring the kneeling pair into the right half. Caveats: a crew of four rather than one or two (two kneel at the rail, two stand by); medium distance, not close; the standing workers' faces are visible; high-ISO noise at 100 %; mirroring flips the small contractor lettering on the van in the background (illegible at display size; blur it if exactness matters). Licence re-checked on Flickr (CC BY 2.0) and on the Commons mirror (FlickreviewR passed)."
+  },
+  {
+    "key": "hero-c5",
+    "file": "hero-candidates/hero-c5.jpg",
+    "title": "Breitengüßbach Schienenschleifer ABS Nürnberg–EbensfeldP7079482",
+    "creator": "Reinhold Möller (Ermell)",
+    "creatorUrl": "https://commons.wikimedia.org/wiki/User:Ermell",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Breiteng%C3%BC%C3%9Fbach_Schienenschleifer_ABS_N%C3%BCrnberg%E2%80%93EbensfeldP7079482.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "A track worker in a yellow helmet, orange hi-vis and green gloves guides a rail grinding machine along the rail while sparks fly at the rail head.",
+    "focal": [62, 50],
+    "hotspots": [
+      { "x": 48, "y": 35, "w": 15, "h": 24, "label": "Gloved hands on the rail grinder" },
+      { "x": 39, "y": 79, "w": 14, "h": 10, "label": "Sparks at the rail head" }
+    ],
+    "notes": "Nuremberg–Ebensfeld high-speed line (ABS Nürnberg–Ebensfeld) at Breitengüßbach, Bavaria, Germany; 2016-07-07 11:05 (EXIF, Olympus E-M5 II). 3960×2970 (4:3). Commons Quality Image. Why: one skilled track worker in helmet, glasses and gloves working a rail profile grinder, sparks at the rail head; tack-sharp; already on the right, so no mirroring. Caveats: daylight with a bright suburban background (houses, a pedestrian sign) — the least moody of the six; contractor name on the hi-vis vest ('LEONHARD WEISS', small) and a logo on the knee pocket; face in profile behind a dust mask and glasses; a water-bottle label. Licence re-checked on the Commons file page: {{self|cc-by-sa-4.0|author=Reinhold Möller}}, own work. Author-requested attribution: \"Reinhold Möller\""
+  },
+  {
+    "key": "hero-c6",
+    "file": "hero-candidates/hero-c6.jpg",
+    "title": "Cheatham Lock scheduled to reopen after major maintenance repairs",
+    "creator": "Fred Tucker / U.S. Army Corps of Engineers Nashville District",
+    "creatorUrl": "https://www.flickr.com/photos/nashvillecorps/",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/nashvillecorps/8187880031/",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "alt": "Seen over his shoulder, a welder in a safety harness and welding hood welds a steel bracket on lock-gate machinery with gloved hands; the arc flares bright.",
+    "focal": [46, 45],
+    "hotspots": [
+      { "x": 38, "y": 25, "w": 17, "h": 28, "label": "Welding arc + gloved hands" }
+    ],
+    "notes": "Cheatham Lock on the Cumberland River, Ashland City, Tennessee, USA; 2012-11-13 11:52 (EXIF). 4288×2848. Caption: USACE electrician Terry Farrow welds a metal 'flag' for the lower river-wall valve limit during a month-long maintenance closure (USACE photo by Fred Tucker). Why: close over-the-shoulder view of one worker; harness, welding hood, gloved hands and a bright arc, which is a ready-made thermal hotspot; lock machinery (water infrastructure). Caveats: welding again, after the rejected thermite weld (though this is arc welding on lock machinery); daylight with blue sky; the welder's surname 'FARROW' is written on the harness and lanyard, so it cannot be mirrored and the arc stays centre-left (x 38–55 %), so keep the focal point near 46 %; face hidden by the hood. Licence re-checked on the Flickr photo page: CC BY-SA 2.0. As a USACE employee's photo it is probably also a public-domain US Government work."
+  }
+]

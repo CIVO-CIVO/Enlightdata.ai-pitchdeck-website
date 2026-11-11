@@ -1,0 +1,507 @@
+@import "tailwindcss";
+
+/* short screens (720–820 px tall laptops and projectors): tighter slide spacing so each slide still fits */
+@custom-variant short (@media (max-height: 820px));
+
+/*
+ * Enlightdata design tokens — derived only from docs/references/ref-01…19.
+ * See docs/REFERENCE-INVENTORY.md for where each value comes from.
+ */
+@theme {
+  /* light canvas (refs 3–7, 9, 13, 15, 17–19) */
+  --color-canvas: #f0f0ed;
+  --color-paper: #f8f8f6;
+  --color-mist: #e7e7e3;
+  --color-line: #d6d6d1;
+  --color-line-soft: #e2e2de;
+  --color-ink: #101010;
+  --color-ink-2: #262626;
+  --color-muted: #5f5f5b;
+  --color-faint: #8e8e89;
+
+  /* dark bands and heroes (refs 2, 8, 10–12, 14, 16 + closing bands) */
+  --color-night: #111111;
+  --color-night-2: #191919;
+  --color-night-3: #222222;
+  --color-night-line: #2e2e2e;
+  --color-on-night: #f2f2ef;
+  --color-on-night-muted: #a1a19c;
+
+  /* thermal highlight palette (every reference) */
+  --color-heat-1: #3a1070;
+  --color-heat-2: #6c1a94;
+  --color-heat-3: #b02684;
+  --color-heat-4: #e24648;
+  --color-heat-5: #f57a24;
+  --color-heat-6: #fcba3a;
+  --color-heat-7: #fff4ce;
+
+  /* UI accent for solid marks (numbers, dots, active states, tags, map points): very dark purple — the
+     owner's swap for the original orange (refs 1, 3, 4), 11 Nov 2026. accent on light surfaces and as
+     fills with white text; accent-night on the black slides, where the very dark purple disappears.
+     Thermal gradients and glows keep heat-1…7. */
+  --color-accent: #3a1070;
+  --color-accent-night: #7e22ce;
+  --color-ok: #2f9e5b;
+  --color-warn: #e0a113;
+  --color-alert: #e5484d;
+
+  --radius-xs: 3px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --radius-xl: 14px;
+
+  --ease-out-soft: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-inter-tight), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+@layer base {
+  :root {
+    /* one slide = one screen on desktop; print/PDF pins it to the page height */
+    --slide-h: 100svh;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    /* slides carry their own top padding for the fixed header, so anchors land on the slide edge */
+    scroll-padding-top: 0;
+    scroll-behavior: smooth;
+  }
+  body {
+    /* clip (not hidden) so stray off-canvas elements can't widen the page and sticky still works */
+    overflow-x: clip;
+    background: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  ::selection {
+    background: var(--color-accent);
+    color: #fff;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent-night);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* ---------- type ---------- */
+  .t-h1 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(2.35rem, 3.9vw, 3.65rem);
+    line-height: 1.02;
+    letter-spacing: -0.034em;
+    text-wrap: balance;
+  }
+  .t-h1-xl {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(2.6rem, 5vw, 4.6rem);
+    line-height: 0.98;
+    letter-spacing: -0.038em;
+    text-wrap: balance;
+  }
+  .t-h2 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(1.7rem, 2.45vw, 2.35rem);
+    line-height: 1.06;
+    letter-spacing: -0.028em;
+    text-wrap: balance;
+  }
+  .t-h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(1.2rem, 1.45vw, 1.45rem);
+    line-height: 1.15;
+    letter-spacing: -0.018em;
+  }
+  .t-h4 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.0625rem;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+  }
+  .t-lead {
+    font-size: clamp(1.02rem, 1.1vw, 1.15rem);
+    line-height: 1.55;
+    color: var(--color-ink-2);
+    text-wrap: pretty;
+  }
+  .t-body {
+    font-size: 0.98rem;
+    line-height: 1.62;
+    color: var(--color-ink-2);
+    text-wrap: pretty;
+  }
+  .t-small {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--color-muted);
+  }
+  .t-micro {
+    font-size: 0.75rem;
+    line-height: 1.4;
+    color: var(--color-muted);
+  }
+  .t-mono {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.01em;
+  }
+  .t-stat {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(2.1rem, 3.2vw, 3.1rem);
+    line-height: 1;
+    letter-spacing: -0.035em;
+  }
+
+  /* eyebrow label with trailing rule — "THE PLATFORM ——" (refs 3, 4, 6, 7, 9, 13, 15, 19) */
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.9rem;
+    font-family: var(--font-display);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  .eyebrow::after {
+    content: "";
+    display: block;
+    width: 2.25rem;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.55;
+  }
+  .eyebrow.no-rule::after {
+    display: none;
+  }
+
+  /* ---------- buttons (refs: dark rectangle with arrow on light; white on dark) ---------- */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    height: 2.6rem;
+    padding: 0 1.15rem;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: -0.005em;
+    white-space: nowrap;
+    transition:
+      background-color 0.18s var(--ease-out-soft),
+      color 0.18s var(--ease-out-soft),
+      border-color 0.18s var(--ease-out-soft),
+      transform 0.18s var(--ease-out-soft);
+  }
+  .btn svg {
+    transition: transform 0.18s var(--ease-out-soft);
+  }
+  .btn:hover svg.arrow {
+    transform: translateX(2px);
+  }
+  .btn-sm {
+    height: 2.25rem;
+    padding: 0 0.95rem;
+    font-size: 0.85rem;
+  }
+  .btn-lg {
+    height: 2.9rem;
+    padding: 0 1.35rem;
+    font-size: 0.95rem;
+  }
+  .btn-solid {
+    background: var(--color-ink);
+    color: #fff;
+    border: 1px solid var(--color-ink);
+  }
+  .btn-solid:hover {
+    background: #2b2b2b;
+  }
+  .btn-outline {
+    background: transparent;
+    color: var(--color-ink);
+    border: 1px solid color-mix(in srgb, var(--color-ink) 70%, transparent);
+  }
+  .btn-outline:hover {
+    background: color-mix(in srgb, var(--color-ink) 5%, transparent);
+  }
+  .btn-light {
+    background: #fff;
+    color: var(--color-ink);
+    border: 1px solid #fff;
+  }
+  .btn-light:hover {
+    background: #e9e9e6;
+  }
+  .btn-ghost-light {
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+  }
+  .btn-ghost-light:hover {
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  /* text link with arrow — "Explore Industries →" (ref 1) */
+  .link-arrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 2px;
+  }
+  .link-arrow:hover svg {
+    transform: translateX(2px);
+  }
+  .link-arrow svg {
+    transition: transform 0.18s var(--ease-out-soft);
+  }
+
+  /* ---------- surfaces ---------- */
+  .card {
+    background: var(--color-paper);
+    border: 1px solid var(--color-line-soft);
+    border-radius: var(--radius-lg);
+  }
+  .card-night {
+    background: var(--color-night-2);
+    border: 1px solid var(--color-night-line);
+    border-radius: var(--radius-lg);
+  }
+  .hairline {
+    border-color: var(--color-line);
+  }
+
+  /* prose for long-form pages (insights, legal) */
+  .prose-ed {
+    color: var(--color-ink-2);
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+  .prose-ed > * + * {
+    margin-top: 1.1em;
+  }
+  .prose-ed h2 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.15;
+    letter-spacing: -0.022em;
+    color: var(--color-ink);
+    margin-top: 2.2em;
+  }
+  .prose-ed h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: -0.012em;
+    color: var(--color-ink);
+    margin-top: 1.8em;
+  }
+  .prose-ed ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .prose-ed ul > li {
+    position: relative;
+    padding-left: 1.3rem;
+  }
+  .prose-ed ul > li + li {
+    margin-top: 0.45em;
+  }
+  .prose-ed ul > li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.72em;
+    width: 0.55rem;
+    height: 1px;
+    background: var(--color-ink);
+  }
+  .prose-ed ol {
+    padding-left: 1.3rem;
+    list-style: decimal;
+  }
+  .prose-ed a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+  }
+  .prose-ed strong {
+    color: var(--color-ink);
+    font-weight: 600;
+  }
+  .prose-ed blockquote {
+    border-left: 2px solid var(--color-accent);
+    padding-left: 1.1rem;
+    color: var(--color-ink);
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    line-height: 1.45;
+    letter-spacing: -0.01em;
+  }
+  .prose-ed table {
+    width: 100%;
+    font-size: 0.9rem;
+    border-collapse: collapse;
+  }
+  .prose-ed th,
+  .prose-ed td {
+    text-align: left;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--color-line);
+    vertical-align: top;
+  }
+  .prose-ed th {
+    font-family: var(--font-display);
+    font-weight: 600;
+    color: var(--color-ink);
+  }
+  .prose-ed code {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    background: var(--color-mist);
+    padding: 0.1em 0.35em;
+    border-radius: 3px;
+  }
+  .prose-ed hr {
+    border-color: var(--color-line);
+    margin: 2.4em 0;
+  }
+}
+
+/* left fade so a hero photograph melts into the canvas behind the text (refs 3, 6, 9, 13, 15, 17–19) */
+@utility fade-left {
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 34%);
+  mask-image: linear-gradient(to right, transparent 0%, #000 34%);
+}
+@utility fade-left-soft {
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 18%);
+  mask-image: linear-gradient(to right, transparent 0%, #000 18%);
+}
+@utility fade-bottom {
+  -webkit-mask-image: linear-gradient(to bottom, #000 62%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 62%, transparent 100%);
+}
+@utility fade-none {
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+@utility heat-gradient {
+  background: linear-gradient(90deg, #3a1070 0%, #6c1a94 18%, #b02684 38%, #e24648 56%, #f57a24 72%, #fcba3a 88%, #fff4ce 100%);
+}
+@utility text-heat {
+  background: linear-gradient(90deg, #b02684, #f57a24 60%, #fcba3a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* thermal reveal animation for overlays */
+@keyframes heat-in {
+  from {
+    opacity: 0;
+    filter: saturate(0.4);
+  }
+  to {
+    opacity: 1;
+    filter: none;
+  }
+}
+@keyframes pulse-dot {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.55);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
+  }
+}
+.anim-heat {
+  animation: heat-in 1.1s var(--ease-out-soft) both;
+}
+.anim-pulse {
+  animation: pulse-dot 2.4s ease-in-out infinite;
+}
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    translate: 0 4px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+.anim-fade {
+  animation: fade-up 0.45s var(--ease-out-soft) both;
+}
+
+/* PDF / print: one slide per 1440 × 900 page, presentation chrome hidden */
+@media print {
+  @page {
+    size: 1440px 900px;
+    margin: 0;
+  }
+  :root {
+    --slide-h: 900px;
+  }
+  html,
+  body {
+    background: var(--color-night);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  [data-chrome] {
+    display: none !important;
+  }
+  [data-slide] {
+    height: 900px;
+    min-height: 900px;
+    overflow: hidden;
+    break-after: page;
+    break-inside: avoid;
+  }
+  [data-slide]:last-child {
+    break-after: auto;
+  }
+}

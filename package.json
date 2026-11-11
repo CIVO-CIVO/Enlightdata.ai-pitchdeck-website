@@ -1,0 +1,35 @@
+{
+  "name": "enlightdata-pitch-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p ${PORT:-3160}",
+    "build": "next build",
+    "start": "next start -p ${PORT:-3160}",
+    "typecheck": "tsc --noEmit -p .",
+    "lint": "eslint app components lib",
+    "images": "node scripts/process-images.mjs",
+    "shots": "node scripts/slides.mjs",
+    "pdf": "node scripts/pdf.mjs"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "next": "15.5.29",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwind-merge": "^3.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "15.5.29",
+    "playwright-core": "^1.49.0",
+    "sharp": "^0.34.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.7.2"
+  }
+}
