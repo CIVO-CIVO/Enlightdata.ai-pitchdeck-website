@@ -35,7 +35,7 @@ NEXT_DIST_DIR=.next-build npm run build && NEXT_DIST_DIR=.next-build PORT=3170 n
 
 ## Deploy
 
-The code is in GitHub at `CIVO-CIVO/Enlightdata.ai-pitchdeck-website`. The repo is connected to Vercel, so every push to `main` builds and publishes the site. Vercel runs a plain `next build`; the images, the PDF and `lib/images.generated.json` are committed, so the build needs no photo processing. `vercel.json` pins functions to Stockholm (`arn1`), as on the other CIVO projects.
+The code is in GitHub at `CIVO-CIVO/Enlightdata.ai-pitchdeck-website`. The repo is connected to Vercel, so every push to `main` builds and publishes the site. Vercel runs a plain `next build`; the images, the PDF and `lib/images.generated.json` are committed, so the build needs no photo processing. `vercel.json` pins functions to Stockholm (`arn1`), as on the other CIVO projects. The fonts (Inter, Inter Tight, JetBrains Mono; SIL OFL) are self-hosted from `app/fonts`, so the build never fetches Google Fonts; a Google Fonts hiccup broke the first deploy. Link previews use Vercel's production domain until `enlightdata.ai` is live.
 
 The repo is public, so a few things stay on the Mac only (see `.gitignore`):
 
