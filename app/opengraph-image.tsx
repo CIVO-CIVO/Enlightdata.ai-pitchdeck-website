@@ -16,7 +16,7 @@ export default async function OpenGraphImage() {
           <svg width="44" height="44" viewBox="0 0 24 24">
             <path d="M3.2 10.2V3.2h7" fill="none" stroke="#ffffff" strokeWidth="2.6" />
             <path d="M20.8 13.8v7h-7" fill="none" stroke="#ffffff" strokeWidth="2.6" />
-            <rect x="9.2" y="9.2" width="5.6" height="5.6" fill="#7e22ce" />
+            <rect x="9.2" y="9.2" width="5.6" height="5.6" fill="#fceec1" />
           </svg>
           <div style={{ display: "flex", fontSize: 34, letterSpacing: -1 }}>
             Enlightdata<span style={{ color: "#8e8e89" }}>.ai</span>

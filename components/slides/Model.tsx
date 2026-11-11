@@ -18,7 +18,7 @@ export function ModelSlide() {
       <div className="mt-10 grid items-stretch gap-0 lg:short:mt-7 lg:grid-cols-[minmax(0,1fr)_128px_minmax(0,1.05fr)_128px_minmax(0,1fr)]">
         <Party {...model.supply} />
         <Flows right={f.toUs} left={f.toSupplier} />
-        <div className="relative overflow-hidden rounded-[10px] border border-accent-night/75 bg-night-3 p-6 text-white lg:p-7">
+        <div className="relative overflow-hidden rounded-[10px] border border-accent-night/45 bg-night-3 p-6 text-white lg:p-7">
           <span aria-hidden className="heat-gradient absolute inset-x-0 top-0 h-[3px]" />
           <p className="flex items-center gap-2.5">
             <LogoMark className="h-5 w-5" />

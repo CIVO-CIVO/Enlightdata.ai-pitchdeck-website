@@ -24,7 +24,7 @@ export function WhySlide() {
             ))}
           </ul>
         </div>
-        <div className="relative overflow-hidden rounded-[10px] border border-accent-night/75 bg-night-2 p-6 lg:p-8">
+        <div className="relative overflow-hidden rounded-[10px] border border-accent-night/45 bg-night-2 p-6 lg:p-8">
           <span aria-hidden className="heat-gradient absolute inset-x-0 top-0 h-[3px]" />
           <h3 className="t-h3 text-white">{why.skilled.title}</h3>
           <ul className="mt-5 space-y-3">
@@ -52,7 +52,7 @@ export function WhySlide() {
             </Fragment>
           ))}
           <Op>=</Op>
-          <div className="relative col-span-2 overflow-hidden rounded-[8px] border border-accent-night/80 bg-night-2 px-4 py-3.5 sm:col-span-1 lg:min-w-[190px]">
+          <div className="relative col-span-2 overflow-hidden rounded-[8px] border border-accent-night/50 bg-night-2 px-4 py-3.5 sm:col-span-1 lg:min-w-[190px]">
             <span aria-hidden className="heat-gradient absolute inset-x-0 top-0 h-[2px]" />
             <p className="text-heat font-display text-[2.4rem] font-semibold leading-none tracking-[-0.04em]">{eq.result[0]}</p>
             <p className="mt-2 text-[0.8rem] leading-snug text-white/75">{eq.result[1]}</p>

@@ -53,7 +53,7 @@ function FieldCard({ f, feature }: { f: Field; feature?: boolean }) {
       <div className="absolute left-4 top-4 z-[7] flex items-center gap-2">
         <span className="font-mono text-[10.5px] tracking-[0.14em] text-white/75">{f.n}</span>
         {feature ? (
-          <span className="rounded-[3px] bg-accent px-1.5 py-[3px] font-mono text-[9.5px] font-medium uppercase leading-none tracking-[0.14em] text-white">
+          <span className="rounded-[3px] bg-accent-night px-1.5 py-[3px] font-mono text-[9.5px] font-medium uppercase leading-none tracking-[0.14em] text-ink">
             {fields.main}
           </span>
         ) : null}

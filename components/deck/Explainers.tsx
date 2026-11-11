@@ -9,7 +9,7 @@ import type { ReactNode } from "react";
 const MONO = { fontFamily: "var(--font-jetbrains), ui-monospace, monospace" } as const;
 const DISPLAY = { fontFamily: "var(--font-inter-tight), var(--font-inter), sans-serif" } as const;
 /** solid accent marks on the night tile (= --color-accent-night); the glows keep the thermal gradient */
-const ACCENT = "#7e22ce";
+const ACCENT = "#fceec1";
 
 function Frame({ id, children, label }: { id: string; children: ReactNode; label: string }) {
   return (
