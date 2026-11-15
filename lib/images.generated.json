@@ -38,37 +38,37 @@
  },
  "pov-data": {
   "w": 2400,
-  "h": 1602,
-  "alt": "First-person view of a mechanic's hand raising an open-end wrench towards the belt pulleys of an old engine in a workshop",
+  "h": 1800,
+  "alt": "Close-up of a welder in an auto-darkening helmet TIG-welding a pipe fitting, gloved hands guiding the torch and the filler rod",
   "focal": [
-   38,
-   60
+   45,
+   55
   ],
   "hotspots": [
    {
-    "x": 17,
-    "y": 56,
-    "w": 21,
-    "h": 44,
-    "label": "Hand + open-end wrench"
+    "x": 26,
+    "y": 58,
+    "w": 22,
+    "h": 30,
+    "label": "Gloved hand + TIG torch at the weld"
    },
    {
-    "x": 36,
-    "y": 28,
-    "w": 15,
-    "h": 21,
-    "label": "Wrench jaw at engine pulley"
+    "x": 52,
+    "y": 50,
+    "w": 24,
+    "h": 30,
+    "label": "Gloved hand feeding the filler rod"
    }
   ],
   "credit": {
    "edits": [],
-   "title": "Worker holds a wrench while inspecting machinery in a workshop",
-   "creator": "Nenad Stojković (Shixart1985)",
-   "creatorUrl": "https://commons.wikimedia.org/wiki/User:Shixart1985",
+   "title": "Tig Welding",
+   "creator": "Prowelder87",
+   "creatorUrl": "https://commons.wikimedia.org/wiki/User:Prowelder87",
    "source": "Wikimedia Commons",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Worker_holds_a_wrench_while_inspecting_machinery_in_a_workshop.jpg",
-   "license": "CC BY 2.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tig_Welding.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   }
  },
  "everyday-pov": {

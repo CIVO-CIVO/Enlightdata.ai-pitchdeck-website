@@ -36,36 +36,35 @@
   },
   {
     "key": "pov-data",
-    "file": "pov-data.jpg",
-    "title": "Worker holds a wrench while inspecting machinery in a workshop",
-    "creator": "Nenad Stojković (Shixart1985)",
-    "creatorUrl": "https://commons.wikimedia.org/wiki/User:Shixart1985",
+    "file": "alt/pov-data-alt1.jpg",
+    "title": "Tig Welding",
+    "creator": "Prowelder87",
+    "creatorUrl": "https://commons.wikimedia.org/wiki/User:Prowelder87",
     "source": "Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Worker_holds_a_wrench_while_inspecting_machinery_in_a_workshop.jpg",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "alt": "First-person view of a mechanic's hand raising an open-end wrench towards the belt pulleys of an old engine in a workshop",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tig_Welding.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "Close-up of a welder in an auto-darkening helmet TIG-welding a pipe fitting, gloved hands guiding the torch and the filler rod",
     "focal": [
-      38,
-      60
+      45,
+      55
     ],
     "hotspots": [
       {
-        "x": 17,
-        "y": 56,
-        "w": 21,
-        "h": 44,
-        "label": "Hand + open-end wrench"
+        "x": 26,
+        "y": 58,
+        "w": 22,
+        "h": 30,
+        "label": "Gloved hand + TIG torch at the weld"
       },
       {
-        "x": 36,
-        "y": 28,
-        "w": 15,
-        "h": 21,
-        "label": "Wrench jaw at engine pulley"
+        "x": 52,
+        "y": 50,
+        "w": 24,
+        "h": 30,
+        "label": "Gloved hand feeding the filler rod"
       }
-    ],
-    "notes": "True first-person frame (camera at the worker's eye line, own hand entering from the bottom), but not rail and not a tight match to the brief: the hand is bare (no glove) and is holding the wrench up to the engine rather than turning a bolt. Hand + wrench sit left of centre (x 17-51 %), so with copy on the left a horizontal flip would be needed to put them in the right half; that flip would be an edit to credit (CC BY 2.0 allows it). Location not stated in the file; the photographer is a Serbia-based Commons contributor (Europe). Taken 2020-10-07, 5897 x 3937. No faces; only small embossed maker text on the wrench. Shallow depth of field, moody, reads well in greyscale. Uploaded by the author as own work ({{self}} + {{Cc-by-2.0}}); licence re-checked on the Commons file page. No true-POV rail photo was found in Commons or Openverse (Openverse search was mostly returning 504 errors). For a rail hero with the point of work in the right half, use pov-data (Kecko, St Gallen thermite weld) instead."
+    ]
   },
   {
     "key": "everyday-pov",
