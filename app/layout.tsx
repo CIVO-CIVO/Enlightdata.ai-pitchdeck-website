@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
+import { AccentTuner } from "@/components/AccentTuner";
 import { site } from "@/lib/content";
 import "./globals.css";
 
@@ -35,7 +36,11 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${interTight.variable} ${mono.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        {/* local colour tries on the dev server: /?accent=8c1a10 (components/AccentTuner.tsx) */}
+        {process.env.NODE_ENV === "development" && <AccentTuner />}
+      </body>
     </html>
   );
 }

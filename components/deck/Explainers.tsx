@@ -8,12 +8,12 @@ import type { ReactNode } from "react";
 
 const MONO = { fontFamily: "var(--font-jetbrains), ui-monospace, monospace" } as const;
 const DISPLAY = { fontFamily: "var(--font-inter-tight), var(--font-inter), sans-serif" } as const;
-/** solid accent marks on the night tile (= --color-accent-night); the glows keep the thermal gradient */
-const ACCENT = "#fceec1";
+/** solid accent marks on the night tile (currentColor: the <svg> sets it to --color-accent-night); the glows keep the thermal gradient */
+const ACCENT = "currentColor";
 
 function Frame({ id, children, label }: { id: string; children: ReactNode; label: string }) {
   return (
-    <svg viewBox="0 0 320 200" className="h-full w-full" role="img" aria-label={label}>
+    <svg viewBox="0 0 320 200" className="h-full w-full text-accent-night" role="img" aria-label={label}>
       <defs>
         <radialGradient id={`${id}-heat`}>
           <stop offset="0%" stopColor="#fff4ce" stopOpacity="0.95" />

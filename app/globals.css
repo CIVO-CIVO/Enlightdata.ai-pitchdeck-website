@@ -36,12 +36,14 @@
   --color-heat-6: #fcba3a;
   --color-heat-7: #fff4ce;
 
-  /* UI accent for solid marks (numbers, dots, active states, tags, map points): light cream-yellow
-     (owner's swatch, ref 24) in place of the original orange (refs 1, 3, 4), 12 Nov 2026. accent-night
+  /* UI accent for solid marks (numbers, dots, active states, tags, map points): orange main #cf4622
+     (owner's pick from the colour tries, 15 Nov 2026; earlier cream, ref 24) in place of the original orange (refs 1, 3, 4), 12 Nov 2026. accent-night
      on the black slides and as fills with ink text; accent (dark gold, same family) for text and
      marks on light surfaces, where the cream disappears. Thermal gradients and glows keep heat-1…7. */
-  --color-accent: #a16207;
-  --color-accent-night: #fceec1;
+  --color-accent: #cf4622;
+  --color-accent-night: #cf4622;
+  /* text on accent fills (the Fields tag, selected text); the local accent tuner sets it per colour */
+  --color-on-accent: var(--color-paper);
   --color-ok: #2f9e5b;
   --color-warn: #e0a113;
   --color-alert: #e5484d;
@@ -85,7 +87,7 @@
   }
   ::selection {
     background: var(--color-accent-night);
-    color: var(--color-ink);
+    color: var(--color-on-accent);
   }
   :focus-visible {
     outline: 2px solid var(--color-accent);
