@@ -228,7 +228,7 @@ export const model = {
     services: [
       { icon: "search", title: "The data you're looking for", text: "Footage by trade, task and region, leased, bought or captured to order." },
       { icon: "signature", title: "Deals and contracts", text: "We help sign the deals and contracts, and find the right companies." },
-      { icon: "scan-eye", title: "Curation partners & rare niches", text: "Partners to curate data, and very specific, in-demand fields others can't reach." },
+      { icon: "scan-eye", title: "Curate partnerships in rare niches", text: "Partners to curate data, and very specific, in-demand fields others can't reach." },
     ] satisfies Service[],
   },
   us: "Enlightdata.ai",
