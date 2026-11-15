@@ -4,7 +4,7 @@ import { LogoMark } from "@/components/Logo";
 import { Icon, type IconName } from "@/components/icon";
 import { model } from "@/lib/content";
 
-/** 06 — the middleman model: supply ⇄ Enlightdata.ai ⇄ demand, and how we earn. */
+/** 06 — the middleman model: supply ⇄ Enlightdata.ai ⇄ demand, and what we bring to both. */
 export function ModelSlide() {
   const f = model.flows;
   return (
@@ -55,7 +55,7 @@ export function ModelSlide() {
   );
 }
 
-function Party({ icon, title, who, gets }: { icon: IconName; title: string; who: string; gets: string }) {
+function Party({ icon, title, who, gets }: { icon: IconName; title: string; who: string; gets: string[] }) {
   return (
     <div className="card-night flex flex-col p-6 lg:p-7">
       <span className="flex h-10 w-10 items-center justify-center rounded-[6px] border border-white/15 bg-white/5">
@@ -64,8 +64,15 @@ function Party({ icon, title, who, gets }: { icon: IconName; title: string; who:
       <h3 className="t-h3 mt-4 text-white">{title}</h3>
       <p className="mt-1.5 text-[0.875rem] leading-normal text-white/60">{who}</p>
       <div className="mt-auto pt-5">
-        <p className="border-t border-white/10 pt-4 font-mono text-[10px] uppercase tracking-[0.16em] text-white/50">They get</p>
-        <p className="mt-1.5 text-[0.93rem] leading-snug text-white/85">{gets}</p>
+        <p className="border-t border-white/10 pt-4 font-mono text-[10px] uppercase tracking-[0.16em] text-white/50">What we do for them</p>
+        <ul className="mt-2 space-y-1.5">
+          {gets.map((g) => (
+            <li key={g} className="flex gap-2.5 text-[0.88rem] leading-snug text-white/85">
+              <span aria-hidden className="mt-[0.45em] h-1.5 w-1.5 shrink-0 rounded-full bg-accent-night" />
+              {g}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

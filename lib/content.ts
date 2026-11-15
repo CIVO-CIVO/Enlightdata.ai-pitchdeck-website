@@ -214,7 +214,11 @@ export const model = {
     icon: "hard-hat" as IconName,
     title: "Field companies",
     who: "Rail operators, utilities, shipyards, contractors",
-    gets: "Buyers for footage of work they already do — or specialists to curate it for sale or for their own AI.",
+    gets: [
+      "Help to lease or sell their data",
+      "Consultants to organise and curate it",
+      "Ready for sale, for its value, or to train their own AI",
+    ],
   },
   us: {
     title: "Enlightdata.ai",
@@ -223,8 +227,12 @@ export const model = {
   demand: {
     icon: "bot" as IconName,
     title: "AI teams & data brokers",
-    who: "AI training-data brokers, robotics and physical-AI teams, world-model builders",
-    gets: "Hard-to-find footage from niche, high-skill fields — plus the deals, contracts and partners behind it.",
+    who: "AI training-data brokers, robotics and physical-AI teams",
+    gets: [
+      "The data they're looking for",
+      "Deals and contracts signed, the right companies found",
+      "Partners to curate data, and niche fields others can't reach",
+    ],
   },
   flows: {
     toUs: "Footage + consent",
@@ -232,11 +240,11 @@ export const model = {
     fromBuyer: "Licence fees",
     toSupplier: "Revenue share",
   },
-  earnTitle: "How the value flows",
+  earnTitle: "What we bring",
   earn: [
-    { icon: "percent", title: "Brokerage", text: "A share of each deal we make happen." },
-    { icon: "repeat", title: "Capture & curation programmes", text: "Setting up and running recurring capture and curation." },
-    { icon: "refresh", title: "Ongoing supply", text: "Equipment and methods keep changing — we keep the data fresh." },
+    { icon: "shield-check", title: "Trust on both sides", text: "Consent, contracts and clean rights, so every deal is safe to sign." },
+    { icon: "repeat", title: "A network of specialists", text: "Consultants and curation partners, matched to each company and field." },
+    { icon: "refresh", title: "Fresh, in-demand data", text: "Equipment and methods keep changing — we keep the supply up to date." },
   ] satisfies { icon: IconName; title: string; text: string }[],
 };
 
