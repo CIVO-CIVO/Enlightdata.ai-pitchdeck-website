@@ -3,18 +3,19 @@
 import { Children, useEffect, useState, type ReactNode } from "react";
 
 /** Banner reel: the scenes cross-fade every few seconds, each with a slow push-in, like a cut sequence of helmet-cam footage. */
-export function HeroReel({ children, labels, every = 5200 }: { children: ReactNode; labels: string[]; every?: number }) {
+export function HeroReel({ children, labels, every = 6000 }: { children: ReactNode; labels: string[]; every?: number }) {
   const scenes = Children.toArray(children);
   const [i, setI] = useState(0);
+  const [prev, setPrev] = useState<number | null>(null);
   useEffect(() => {
     if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    const t = setInterval(() => setI((n) => (n + 1) % scenes.length), every);
+    const t = setInterval(() => setI((n) => (setPrev(n), (n + 1) % scenes.length)), every);
     return () => clearInterval(t);
   }, [scenes.length, every]);
   return (
     <>
       {scenes.map((s, k) => (
-        <div key={k} aria-hidden={k !== i} className="reel-scene absolute inset-0" data-on={k === i || undefined} style={{ animationDuration: `${every + 1600}ms` }}>
+        <div key={k} aria-hidden={k !== i} className="reel-scene absolute inset-0" data-on={k === i || undefined} data-prev={k === prev || undefined}>
           {s}
         </div>
       ))}

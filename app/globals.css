@@ -508,19 +508,30 @@
   }
 }
 
-/* banner reel (hero): cross-fade between scenes plus a slow push-in on the visible one */
+/* banner reel (hero), after the Enlightlayer cover reel: the new scene fades in on top while the old one
+   keeps its slow push-in underneath, so nothing snaps back mid-fade */
 .reel-scene {
   opacity: 0;
-  transition: opacity 1.4s ease;
+  backface-visibility: hidden;
+}
+.reel-scene:is([data-on], [data-prev]) {
+  opacity: 1;
+  will-change: transform, opacity;
+  transform-origin: 62% 58%;
+  animation:
+    reel-in 1.6s cubic-bezier(0.4, 0, 0.2, 1) both,
+    reel-push 10s linear both;
 }
 .reel-scene[data-on] {
-  opacity: 1;
-  animation: reel-push linear both;
+  z-index: 2;
+}
+@keyframes reel-in {
+  from { opacity: 0; }
 }
 @keyframes reel-push {
   from { transform: scale(1); }
-  to { transform: scale(1.07); }
+  to { transform: scale(1.06); }
 }
 @media (prefers-reduced-motion: reduce) {
-  .reel-scene[data-on] { animation: none; }
+  .reel-scene:is([data-on], [data-prev]) { animation: none; }
 }

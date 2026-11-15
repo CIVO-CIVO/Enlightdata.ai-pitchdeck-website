@@ -12,8 +12,8 @@ const IMG = "pov-hero";
 /** 01 — dark hero: copy left, the helmet-cam frame bleeding in from the right (refs 2, 8, 12). */
 /** problem scenarios the banner cycles through: the image key and the line shown under it */
 const SCENES: { img: string; label: string; callout: string }[] = [
-  { img: IMG, label: "Tunnel blasting · checking the charge wiring · DE", callout: "Point of work" },
-  { img: "reel-3", label: "Track fault · inspecting a sleeper by lamp light · CH", callout: "Fault located" },
+  { img: "field-marine", label: "Hull corrosion · ultrasonic thickness check · NL", callout: "Probe on the plate" },
+  { img: "field-grid", label: "Line fault · repair at the crossarm, at height · US", callout: "Gloved hands at work" },
   { img: "reel-4", label: "Night renewal · fitting a new rail · CH", callout: "Hands at the rail" },
   { img: "reel-5", label: "Worn rail · grinding the profile back · DE", callout: "Tool on the rail" },
   { img: "reel-6", label: "Lock-gate repair · welding at height · US", callout: "Weld in progress" },
