@@ -16,7 +16,7 @@ export default function CreditsPage() {
     <div className="min-h-screen bg-canvas text-ink">
       <header className="border-b border-line">
         <Container className="flex h-16 items-center justify-between">
-          <Link href="/" className="inline-flex items-center gap-2.5" aria-label="Enlightdata.ai — back to the pitch">
+          <Link href="/" className="inline-flex items-center gap-2.5" aria-label="Enlightdata.ai, back to the pitch">
             <LogoMark />
             <span className="font-display text-[1.15rem] font-semibold leading-none tracking-[-0.03em]">
               Enlightdata<span className="font-normal text-ink/45">.ai</span>
@@ -33,7 +33,7 @@ export default function CreditsPage() {
           <p className="eyebrow text-ink/70">Credits</p>
           <h1 className="t-h1 mt-5">Photo credits</h1>
           <p className="t-lead mt-5 max-w-[680px]">
-            Every photograph on this site is openly licensed and used as an illustration — none of them is Enlightdata footage. We converted each one to black and
+            Every photograph on this site is openly licensed and used as an illustration. None of them is Enlightdata footage. We converted each one to black and
             white and added a thermal-colour highlight; any other change is listed with the photo. Our edited versions of CC BY-SA photos are shared under the same
             licence.
           </p>

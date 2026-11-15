@@ -14,7 +14,7 @@ export const site = {
   email: "contact@enlightdata.ai",
   tagline: "POV data of skilled manual work, for humanoid robotics",
   description:
-    "Enlightdata.ai collects, curates and brokers first-person video of highly skilled manual work across Europe and North America — the data humanoid robots and physical AI will need next.",
+    "Enlightdata.ai collects, curates and brokers first-person video of highly skilled manual work across Europe and North America: the data humanoid robots and physical AI will need next.",
   sister: "Enlightlayer.com",
 };
 
@@ -31,16 +31,15 @@ export const slides: { id: string; n: string; label: string; tone: Tone; nav?: s
   { id: "why", n: "07", label: "Why skilled work", tone: "dark" },
   { id: "buyers", n: "08", label: "Use cases", tone: "light", nav: "Use cases" },
   { id: "model", n: "09", label: "Our role", tone: "dark", nav: "Model" },
-  { id: "options", n: "10", label: "Ways to work with us", tone: "light" },
-  { id: "process", n: "11", label: "How a deal works", tone: "dark" },
-  { id: "trust", n: "12", label: "Rights first", tone: "light", nav: "Trust" },
-  { id: "contact", n: "13", label: "Contact", tone: "dark" },
+  { id: "process", n: "10", label: "How a deal works", tone: "dark" },
+  { id: "trust", n: "11", label: "Rights first", tone: "light", nav: "Trust" },
+  { id: "contact", n: "12", label: "Contact", tone: "dark" },
 ];
 
 export const hero = {
   eyebrow: "POV data for humanoid robotics · Europe & North America",
   title: "Expert hands, on camera.",
-  lead: "We collect, curate and broker real-world first-person video of highly skilled manual work — helmet cams and bodycams on real jobs — for the teams building humanoid robots. The most valuable data, and almost nobody is gathering it.",
+  lead: "We collect, curate and broker real-world first-person video of highly skilled manual work, filmed on helmet cams and bodycams on real jobs, for the teams building humanoid robots. The most valuable data, and almost nobody is gathering it.",
   proof: [
     { icon: "video", title: "Helmet cams & bodycams", text: "First-person footage, worn on the job." },
     { icon: "hard-hat", title: "Highly skilled work", text: "Maintenance, repair, checks, inspections." },
@@ -75,7 +74,7 @@ export const gap = {
 export const data = {
   eyebrow: "What we broker",
   title: "First-person footage of real, skilled jobs.",
-  lead: "Real crews on real sites, filmed from their own point of view — then cleared, cleaned and labelled for licensing.",
+  lead: "Real crews on real sites, filmed from their own point of view, then cleared, cleaned and labelled for licensing.",
   cameras: [
     { icon: "hard-hat", label: "Helmet cams" },
     { icon: "video", label: "Bodycams" },
@@ -89,7 +88,7 @@ export const data = {
     "Consent and a licence for every clip",
     "Faces, names and number plates blurred",
   ],
-  not: ["Not fixed cameras — that's our sister company, Enlightlayer.com", "Not studio shoots", "Not consumer data"],
+  not: ["Not fixed cameras (that's our sister company, Enlightlayer.com)", "Not studio shoots", "Not consumer data"],
   steps: ["Brief", "Isolate", "Inspect", "Repair", "Test", "Sign off"],
   activeStep: 2,
 };
@@ -113,7 +112,7 @@ export const pipeline = {
     { icon: "signature", label: "Consent & rights records" },
     { icon: "eye-off", label: "Privacy-safe footage" },
   ] satisfies { icon: IconName; label: string }[],
-  note: { title: "What we are", text: "A broker. We find, clear and prepare footage — we don't build AI models, run fixed cameras or trade consumer data." },
+  note: { title: "What we are", text: "A broker. We find, clear and prepare footage. We don't build AI models, run fixed cameras or trade consumer data." },
 };
 
 export const jobs = {
@@ -124,7 +123,7 @@ export const jobs = {
     tag: "Rail · Track work · Switzerland",
     callouts: [
       { title: "Step 4 of 6", lines: ["Measure at the rail"], icon: "list-checks" },
-      { title: "Commentary", lines: ["“Gauge is good — next sleeper.”"], icon: "mic" },
+      { title: "Commentary", lines: ["“Gauge is good. Next sleeper.”"], icon: "mic" },
     ] as { title: string; lines: string[]; icon: IconName }[],
   },
   recordTitle: "Clip record",
@@ -167,7 +166,7 @@ export const why = {
   eyebrow: "Why skilled work",
   title: "Skilled field work isn't one task. It's thousands.",
   lead: "Every trade splits into many jobs, every job into steps, and every step into judgement calls that take people years to learn. A robot can't pick that up from one video.",
-  simple: "Repeatable tasks — same station, same motion — are already filmed at scale.",
+  simple: "Repeatable tasks, with the same station and the same motion, are already filmed at scale.",
   tradesTitle: "One field, many trades",
   trades: [
     { trade: "Rail", tasks: ["Gauge checks", "Rail grinding", "Switch repair"], call: "Is this crack within limits?" },
@@ -210,8 +209,8 @@ export type Service = { icon: IconName; title: string; text: string };
 
 export const model = {
   eyebrow: "Our role",
-  title: "We work for both sides.",
-  lead: "Field companies get help turning their expertise into value. Data brokers and AI teams get the data, deals and partners they can't find elsewhere.",
+  title: "One partner for both sides of the market.",
+  lead: "We help field companies turn their crews' expertise into a valuable data asset, and give data brokers and AI teams the footage, deals and partners they can't find anywhere else.",
   supply: {
     icon: "hard-hat" as IconName,
     title: "For field companies",
@@ -227,7 +226,7 @@ export const model = {
     title: "For data brokers & AI teams",
     who: "AI training-data brokers, robotics and physical-AI teams",
     services: [
-      { icon: "search", title: "The data you're looking for", text: "Footage by trade, task and region — leased, bought or captured to order." },
+      { icon: "search", title: "The data you're looking for", text: "Footage by trade, task and region, leased, bought or captured to order." },
       { icon: "signature", title: "Deals and contracts", text: "We help sign the deals and contracts, and find the right companies." },
       { icon: "scan-eye", title: "Curation partners & rare niches", text: "Partners to curate data, and very specific, in-demand fields others can't reach." },
     ] satisfies Service[],
@@ -237,35 +236,8 @@ export const model = {
   earn: [
     { icon: "shield-check", title: "Trust on both sides", text: "Consent, contracts and clean rights, so every deal is safe to sign." },
     { icon: "repeat", title: "A network of specialists", text: "Consultants and curation partners, matched to each company and field." },
-    { icon: "refresh", title: "Fresh, in-demand data", text: "Equipment and methods keep changing — we keep the supply up to date." },
+    { icon: "refresh", title: "Fresh, in-demand data", text: "Equipment and methods keep changing, and we keep the supply up to date." },
   ] satisfies Service[],
-};
-
-export const options = {
-  eyebrow: "Ways to work with us",
-  title: "Two sides. One partner.",
-  sides: [
-    {
-      icon: "hard-hat" as IconName,
-      title: "Field companies",
-      who: "Rail operators, utilities, shipyards, contractors",
-      items: [
-        { title: "Lease or sell your data", text: "We find buyers and arrange leases or sales of footage from work your crews already do — contracts and quality handled." },
-        { title: "Curate it with specialists", text: "We bring in consultants to organise and curate your data — for sale, for its value, or to train your own AI in-house." },
-        { title: "Hybrid", text: "Keep what's sensitive in-house for your own use, and license the rest." },
-      ],
-    },
-    {
-      icon: "bot" as IconName,
-      title: "AI teams & data brokers",
-      who: "AI training-data brokers, robotics and physical-AI teams, world-model builders",
-      items: [
-        { title: "The data you're looking for", text: "Licensed footage by trade, task and region — leased, bought or captured to order." },
-        { title: "Deals and contracts", text: "We help sign deals, set up contracts and find the right companies, including partners to curate data." },
-        { title: "Hard-to-find niches", text: "We seek out partners in very specific, in-demand fields and niches you struggle to find elsewhere." },
-      ],
-    },
-  ],
 };
 
 export const deal = {
@@ -297,7 +269,7 @@ export const trust = {
 export const contact = {
   eyebrow: "Let's talk",
   title: "Real-world POV data of skilled work. Brokered.",
-  lead: "Enlightdata.ai connects skilled field crews with the teams building physical AI — across Europe and North America.",
+  lead: "Enlightdata.ai connects skilled field crews with the teams building physical AI, across Europe and North America.",
   cta: "Email us",
   pdf: "Download the deck (PDF)",
   back: "Back to the start",

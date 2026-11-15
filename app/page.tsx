@@ -8,12 +8,11 @@ import { FieldsSlide } from "@/components/slides/Fields";
 import { WhySlide } from "@/components/slides/Why";
 import { BuyersSlide } from "@/components/slides/Buyers";
 import { ModelSlide } from "@/components/slides/Model";
-import { OptionsSlide } from "@/components/slides/Options";
 import { ProcessSlide } from "@/components/slides/Process";
 import { TrustSlide } from "@/components/slides/Trust";
 import { ContactSlide } from "@/components/slides/Contact";
 
-/** The pitch: thirteen slides on one page. Order and labels live in lib/content.ts. */
+/** The pitch: twelve slides on one page. Order and labels live in lib/content.ts. */
 export default function PitchPage() {
   return (
     <>
@@ -28,7 +27,6 @@ export default function PitchPage() {
         <WhySlide />
         <BuyersSlide />
         <ModelSlide />
-        <OptionsSlide />
         <ProcessSlide />
         <TrustSlide />
         <ContactSlide />

@@ -136,7 +136,7 @@ export function DeckChrome() {
         )}
       >
         <div className="mx-auto flex h-16 max-w-[1320px] items-center justify-between gap-6 px-5 sm:px-8 lg:px-12">
-          <a href="#top" aria-label="Enlightdata.ai — back to the start" className="inline-flex items-center gap-2.5">
+          <a href="#top" aria-label="Enlightdata.ai, back to the start" className="inline-flex items-center gap-2.5">
             <LogoMark />
             <span className="font-display text-[1.15rem] font-semibold leading-none tracking-[-0.03em]">
               Enlightdata<span className={cn("font-normal", dark ? "text-white/55" : "text-ink/45")}>.ai</span>

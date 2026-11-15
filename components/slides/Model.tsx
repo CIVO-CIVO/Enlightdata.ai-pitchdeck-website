@@ -7,10 +7,10 @@ import { model, type Service } from "@/lib/content";
 export function ModelSlide() {
   return (
     <Slide id="model">
-      <div className="max-w-[820px]">
+      <div className="max-w-[1100px]">
         <SlideEyebrow id="model" />
         <h2 className="t-h1 mt-5 text-white lg:short:mt-4">{model.title}</h2>
-        <p className="t-lead mt-5 text-white/75 lg:short:mt-4">{model.lead}</p>
+        <p className="t-lead mt-5 max-w-[760px] text-white/75 lg:short:mt-4">{model.lead}</p>
       </div>
 
       <div className="relative mt-8 grid gap-3 lg:short:mt-6 lg:grid-cols-2 lg:gap-5">

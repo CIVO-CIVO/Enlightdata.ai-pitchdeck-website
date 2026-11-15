@@ -1,12 +1,12 @@
 # Enlightdata.ai — investor pitch site (v2)
 
-A short, presentable website for investors: what Enlightdata.ai does, in thirteen slides on one page.
+A short, presentable website for investors: what Enlightdata.ai does, in twelve slides on one page.
 
 **The business in one line:** Enlightdata.ai brokers first-person video from the helmet cams and bodycams of highly skilled field workers across Europe and North America — licensed to the teams building physical AI. We are the middlemen between the companies whose crews do the work and the AI teams and AI training-data brokers who need the footage. (Fixed cameras are the sister company, Enlightlayer.com.)
 
 The full v1 website — 15 concepts, the 176-task dataset and the business plan — is saved in `../website` and in `../Enlightdata-v1-full-website-2026-11-11.zip`.
 
-## The thirteen slides
+## The twelve slides
 
 | # | Slide | Says |
 |---|---|---|
@@ -19,10 +19,9 @@ The full v1 website — 15 concepts, the 176-task dataset and the business plan 
 | 07 | Why skilled work | Simple tasks get filmed everywhere; field work multiplies into variants (illustrative 1 × 4 × 5 × 2 × 4 = 160) |
 | 08 | Use cases | What buyers build: robot learning, world models, work assistants, inspection AI (drawn explainers); typical buyers |
 | 09 | Our role | We're the middlemen: field companies ⇄ Enlightdata.ai ⇄ AI teams & brokers; how we earn |
-| 10 | Ways to work with us | Two sides, three ways in each (license / build your own / hybrid; buy or lease / source to order / advise) |
-| 11 | How a deal works | Match → Agree → Capture → Check → License |
-| 12 | Rights first | Consent, contracts, privacy, safety, clear licences; Europe + North America map |
-| 13 | Contact | Email, PDF download, sister-company line, photo credits |
+| 10 | How a deal works | Match → Agree → Capture → Check → License |
+| 11 | Rights first | Consent, contracts, privacy, safety, clear licences; Europe + North America map |
+| 12 | Contact | Email, PDF download, sister-company line, photo credits |
 
 ## Run it
 

@@ -13,7 +13,7 @@ const mono = localFont({ src: "./fonts/jetbrains-mono-latin-wght.woff2", variabl
 // link previews need an absolute URL that resolves: the Vercel production domain when built there
 const baseUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : site.url;
 
-const title = `${site.name} — ${site.tagline}`;
+const title = `${site.name} · ${site.tagline}`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),

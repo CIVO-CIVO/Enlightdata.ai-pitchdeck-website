@@ -4,7 +4,7 @@ import { ImageResponse } from "next/og";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-export const alt = "Enlightdata.ai — first-person video of skilled field work, brokered";
+export const alt = "Enlightdata.ai: first-person video of skilled field work, brokered";
 
 export default async function OpenGraphImage() {
   // Inter Tight (SIL OFL) — the site's heading face, vendored because next/og needs a TTF

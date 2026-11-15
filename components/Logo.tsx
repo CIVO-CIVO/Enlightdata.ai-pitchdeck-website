@@ -17,7 +17,7 @@ export function LogoMark({ className }: { className?: string }) {
 
 export function Logo({ className, dark }: { className?: string; dark?: boolean }) {
   return (
-    <Link href="/" aria-label="Enlightdata — home" className={cn("inline-flex items-center gap-2.5", dark ? "text-white" : "text-ink", className)}>
+    <Link href="/" aria-label="Enlightdata home" className={cn("inline-flex items-center gap-2.5", dark ? "text-white" : "text-ink", className)}>
       <LogoMark />
       <span className="font-display text-[1.2rem] font-semibold leading-none tracking-[-0.03em]">
         Enlightdata<span className={cn("font-normal", dark ? "text-white/55" : "text-ink/45")}>.ai</span>
