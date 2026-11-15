@@ -16,7 +16,7 @@ export function HeroReel({ children, labels, every = 6000 }: { children: ReactNo
     <>
       {scenes.map((s, k) => (
         <div key={k} aria-hidden={k !== i} className="reel-scene absolute inset-0" data-on={k === i || undefined} data-prev={k === prev || undefined}>
-          {s}
+          <div className="reel-push absolute inset-0">{s}</div>
         </div>
       ))}
       <div className="pointer-events-none absolute bottom-[150px] left-[34%] z-[6] hidden items-center gap-3 font-mono text-[10.5px] uppercase tracking-[0.16em] text-white/85 lg:flex lg:short:bottom-[140px]">

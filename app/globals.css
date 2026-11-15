@@ -508,30 +508,26 @@
   }
 }
 
-/* banner reel (hero), after the Enlightlayer cover reel: the new scene fades in on top while the old one
-   keeps its slow push-in underneath, so nothing snaps back mid-fade */
+/* banner reel (hero): a full cross-fade (the old scene fades out while the new one fades in, so nothing of it
+   stays behind the photo's soft left edge); the inner layer keeps its slow push-in through the fade, so nothing snaps back */
 .reel-scene {
   opacity: 0;
-  backface-visibility: hidden;
-}
-.reel-scene:is([data-on], [data-prev]) {
-  opacity: 1;
-  will-change: transform, opacity;
-  transform-origin: 62% 58%;
-  animation:
-    reel-in 1.6s cubic-bezier(0.4, 0, 0.2, 1) both,
-    reel-push 10s linear both;
+  transition: opacity 1.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .reel-scene[data-on] {
+  opacity: 1;
   z-index: 2;
 }
-@keyframes reel-in {
-  from { opacity: 0; }
+.reel-scene:is([data-on], [data-prev]) .reel-push {
+  will-change: transform;
+  transform-origin: 62% 58%;
+  animation: reel-push 10s linear both;
 }
 @keyframes reel-push {
   from { transform: scale(1); }
   to { transform: scale(1.06); }
 }
 @media (prefers-reduced-motion: reduce) {
-  .reel-scene:is([data-on], [data-prev]) { animation: none; }
+  .reel-scene { transition: none; }
+  .reel-scene:is([data-on], [data-prev]) .reel-push { animation: none; }
 }
