@@ -7,8 +7,6 @@ import { Icon } from "@/components/icon";
 import { hero } from "@/lib/content";
 import { HeroReel } from "@/components/deck/HeroReel";
 
-const IMG = "pov-hero";
-
 /** 01 — dark hero: copy left, the helmet-cam frame bleeding in from the right (refs 2, 8, 12). */
 /** problem scenarios the banner cycles through: the image key and the line shown under it */
 const SCENES: { img: string; label: string; callout: string }[] = [

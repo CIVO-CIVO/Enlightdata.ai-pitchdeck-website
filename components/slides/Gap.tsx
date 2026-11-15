@@ -1,11 +1,11 @@
 import { cn } from "@/lib/cn";
 import { Slide, SlideEyebrow } from "@/components/deck/Slide";
-import { Photo, ThermalImage } from "@/components/ThermalImage";
+import { ThermalImage } from "@/components/ThermalImage";
 import { Icon } from "@/components/icon";
 import { getImage } from "@/lib/images";
 import { gap } from "@/lib/content";
 
-/** 02 — the gap: everyday first-person footage is plentiful, skilled field work is not. */
+/** 02 — the gap: simple work is filmed at scale in Asia; high-skill manual work in Europe and North America is not. */
 export function GapSlide() {
   const skilled = getImage("gap-skilled")?.hotspots[0];
   return (
@@ -28,16 +28,9 @@ export function GapSlide() {
           </ul>
         </div>
 
-        <div className="grid grid-cols-2 gap-3">
-          <figure className="relative aspect-[4/5] overflow-hidden rounded-[10px] bg-mist">
-            <Photo fill img="everyday-pov" className="opacity-75 grayscale" sizes="(min-width: 1024px) 26vw, 50vw" />
-            <Chip tone="light" label={gap.plenty.label} />
-            <figcaption className="absolute inset-x-0 bottom-0 bg-[linear-gradient(180deg,rgba(240,240,237,0),rgba(240,240,237,0.92)_55%)] px-4 pb-4 pt-12 font-display text-[0.95rem] font-semibold leading-tight tracking-[-0.01em] text-ink">
-              {gap.plenty.text}
-            </figcaption>
-          </figure>
-          <figure className="relative aspect-[4/5] overflow-hidden rounded-[10px] bg-night">
-            <ThermalImage fill img="gap-skilled" spots={skilled ? [skilled] : "none"} sizes="(min-width: 1024px) 26vw, 50vw" />
+        <div>
+          <figure className="relative aspect-[5/4] overflow-hidden rounded-[10px] bg-night">
+            <ThermalImage fill img="gap-skilled" spots={skilled ? [skilled] : "none"} sizes="(min-width: 1024px) 52vw, 100vw" />
             <Chip tone="dark" label={gap.scarce.label} />
             <figcaption className="absolute inset-x-0 bottom-0 z-[6] bg-[linear-gradient(180deg,rgba(17,17,17,0),rgba(17,17,17,0.9)_55%)] px-4 pb-4 pt-12 font-display text-[0.95rem] font-semibold leading-tight tracking-[-0.01em] text-white">
               {gap.scarce.text}

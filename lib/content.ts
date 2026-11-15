@@ -39,7 +39,7 @@ export const slides: { id: string; n: string; label: string; tone: Tone; nav?: s
 
 export const hero = {
   eyebrow: "POV data for humanoid robotics · Europe & North America",
-  title: "The skilled-labour data humanoid robots will need.",
+  title: "Expert hands, on camera.",
   lead: "We collect, curate and broker real-world first-person video of highly skilled manual work — helmet cams and bodycams on real jobs — for the teams building humanoid robots. The most valuable data, and almost nobody is gathering it.",
   proof: [
     { icon: "video", title: "Helmet cams & bodycams", text: "First-person footage, worn on the job." },
@@ -51,24 +51,23 @@ export const hero = {
 
 export const gap = {
   eyebrow: "The gap",
-  title: "AI has watched people cook. It hasn't watched them fix a railway.",
-  lead: "Humanoid robots learn hands-on skills from first-person video. Most of it shows everyday life; high-skill manual work is barely on camera. That is the data robots need next.",
-  plenty: { label: "Plenty of footage", text: "Kitchens, homes, hobbies" },
-  scarce: { label: "Very little footage", text: "Rail yards, sewers, substations, shipyards" },
+  title: "Asia is filming simple work. Nobody is filming the experts.",
+  lead: "Low- and medium-skill labour is already filmed at scale in Asia. High-skill manual work in Europe and North America isn't, and the people who know it are retiring.",
+  scarce: { label: "Very little footage", text: "Welders, linemen, rail and marine technicians" },
   points: [
-    { icon: "trend", title: "Demand is rising", text: "Humanoid-robotics teams are moving from homes to real work, and need first-person video of skilled jobs to learn from." },
+    { icon: "trend", title: "A supply shock is coming", text: "Experienced tradespeople in Europe and North America are retiring faster than they're replaced. Their know-how leaves with them." },
     { icon: "lock", title: "Supply is locked away", text: "Skilled field work happens on live sites, behind safety rules, permits and contracts." },
     { icon: "ban", title: "It can't be staged", text: "Nobody can rebuild a rail yard, a sewer or a substation in a studio." },
   ] satisfies { icon: IconName; title: string; text: string }[],
   spectrum: {
-    title: "Where first-person footage exists today",
+    title: "Who is filming first-person work today",
     note: "Qualitative",
     ours: "Our focus",
     items: [
-      { label: "Homes & kitchens", level: "Plenty", fill: 1 },
-      { label: "Hobbies & sport", level: "Plenty", fill: 0.9 },
-      { label: "Factories & warehouses", level: "Growing", fill: 0.5 },
-      { label: "Field infrastructure", level: "Scarce", fill: 0.12, ours: true },
+      { label: "Everyday & household", level: "Plenty", fill: 1 },
+      { label: "Low-skill labour · Asia", level: "Plenty", fill: 0.9 },
+      { label: "Medium-skill labour · Asia", level: "Growing", fill: 0.55 },
+      { label: "High-skill manual · EU & NA", level: "Scarce", fill: 0.1, ours: true },
     ],
   },
 };
