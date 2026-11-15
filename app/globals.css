@@ -507,3 +507,20 @@
     break-after: auto;
   }
 }
+
+/* banner reel (hero): cross-fade between scenes plus a slow push-in on the visible one */
+.reel-scene {
+  opacity: 0;
+  transition: opacity 1.4s ease;
+}
+.reel-scene[data-on] {
+  opacity: 1;
+  animation: reel-push linear both;
+}
+@keyframes reel-push {
+  from { transform: scale(1); }
+  to { transform: scale(1.07); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reel-scene[data-on] { animation: none; }
+}

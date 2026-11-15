@@ -12,9 +12,9 @@ export const site = {
   url: "https://enlightdata.ai",
   /** placeholder — confirm the real inbox before sharing the site */
   email: "contact@enlightdata.ai",
-  tagline: "Real-world POV data of skilled work",
+  tagline: "POV data of skilled manual work, for humanoid robotics",
   description:
-    "Enlightdata.ai brokers first-person video from the helmet cams and bodycams of highly skilled field workers across Europe and North America — licensed to the teams building physical AI.",
+    "Enlightdata.ai collects, curates and brokers first-person video of highly skilled manual work across Europe and North America — the data humanoid robots and physical AI will need next.",
   sister: "Enlightlayer.com",
 };
 
@@ -38,9 +38,9 @@ export const slides: { id: string; n: string; label: string; tone: Tone; nav?: s
 ];
 
 export const hero = {
-  eyebrow: "Real-world POV data · Europe & North America",
-  title: "Skilled work, seen through the worker's eyes.",
-  lead: "We broker first-person video from the helmet cams and bodycams of highly skilled field workers across Europe and North America — licensed to the teams building physical AI.",
+  eyebrow: "POV data for humanoid robotics · Europe & North America",
+  title: "The skilled-labour data humanoid robots will need.",
+  lead: "We collect, curate and broker real-world first-person video of highly skilled manual work — helmet cams and bodycams on real jobs — for the teams building humanoid robots. The most valuable data, and almost nobody is gathering it.",
   proof: [
     { icon: "video", title: "Helmet cams & bodycams", text: "First-person footage, worn on the job." },
     { icon: "hard-hat", title: "Highly skilled work", text: "Maintenance, repair, checks, inspections." },
@@ -52,11 +52,11 @@ export const hero = {
 export const gap = {
   eyebrow: "The gap",
   title: "AI has watched people cook. It hasn't watched them fix a railway.",
-  lead: "Physical AI learns hands-on skills from first-person video. Most of that video shows everyday life. The skilled work that keeps infrastructure running is barely on camera.",
+  lead: "Humanoid robots learn hands-on skills from first-person video. Most of it shows everyday life; high-skill manual work is barely on camera. That is the data robots need next.",
   plenty: { label: "Plenty of footage", text: "Kitchens, homes, hobbies" },
   scarce: { label: "Very little footage", text: "Rail yards, sewers, substations, shipyards" },
   points: [
-    { icon: "trend", title: "Demand is rising", text: "Robotics and physical-AI teams need first-person video of real work to learn from." },
+    { icon: "trend", title: "Demand is rising", text: "Humanoid-robotics teams are moving from homes to real work, and need first-person video of skilled jobs to learn from." },
     { icon: "lock", title: "Supply is locked away", text: "Skilled field work happens on live sites, behind safety rules, permits and contracts." },
     { icon: "ban", title: "It can't be staged", text: "Nobody can rebuild a rail yard, a sewer or a substation in a studio." },
   ] satisfies { icon: IconName; title: string; text: string }[],

@@ -5,30 +5,48 @@ import { ThermalImage, type Callout } from "@/components/ThermalImage";
 import { heroBox, placeCallouts } from "@/components/callouts";
 import { Icon } from "@/components/icon";
 import { hero } from "@/lib/content";
+import { HeroReel } from "@/components/deck/HeroReel";
 
 const IMG = "pov-hero";
 
 /** 01 — dark hero: copy left, the helmet-cam frame bleeding in from the right (refs 2, 8, 12). */
+/** problem scenarios the banner cycles through: the image key and the line shown under it */
+const SCENES: { img: string; label: string; callout: string }[] = [
+  { img: IMG, label: "Tunnel blasting · checking the charge wiring · DE", callout: "Point of work" },
+  { img: "reel-3", label: "Track fault · inspecting a sleeper by lamp light · CH", callout: "Fault located" },
+  { img: "reel-4", label: "Night renewal · fitting a new rail · CH", callout: "Hands at the rail" },
+  { img: "reel-5", label: "Worn rail · grinding the profile back · DE", callout: "Tool on the rail" },
+  { img: "reel-6", label: "Lock-gate repair · welding at height · US", callout: "Weld in progress" },
+];
+
+/** 01 — dark hero: copy left, a reel of helmet-cam style problem scenes bleeding in from the right (refs 2, 8, 12). */
 export function HeroSlide() {
-  const box = heroBox(IMG, 52);
-  const callouts: Callout[] = box
-    ? placeCallouts(IMG, [{ title: "Point of work", lines: ["What physical AI learns from"], icon: "hand" }], { box, avoidLeft: true, prefer: ["above", "below", "right"] })
-    : [];
   return (
     <Slide id="top" bleed className="overflow-hidden">
       <div className="relative flex flex-1 flex-col lg:min-h-[var(--slide-h)]">
-        <div className="relative mt-16 aspect-[4/3] w-full sm:aspect-[16/9] lg:absolute lg:inset-y-0 lg:right-0 lg:mt-0 lg:aspect-auto lg:w-[66%]">
-          {/* on short screens the proof strip covers the bottom of the hands' box, so its brackets are dropped there (the glow stays) */}
-          <ThermalImage
-            fill
-            img={IMG}
-            spots={box ? [box] : "none"}
-            callouts={callouts}
-            fade="lg-left"
-            priority
-            sizes="(min-width: 1024px) 66vw, 100vw"
-            className="lg:short:[&_[data-brackets]]:hidden"
-          />
+        <div className="relative mt-16 aspect-[4/3] w-full overflow-hidden sm:aspect-[16/9] lg:absolute lg:inset-y-0 lg:right-0 lg:mt-0 lg:aspect-auto lg:w-[66%]">
+          <HeroReel labels={SCENES.map((s) => s.label)}>
+            {SCENES.map((s, k) => {
+              const box = heroBox(s.img, 0);
+              const callouts: Callout[] = box
+                ? placeCallouts(s.img, [{ title: s.callout, lines: ["What physical AI learns from"], icon: "hand" }], { box, avoidLeft: true, prefer: ["above", "below", "right"] })
+                : [];
+              // on short screens the proof strip covers the bottom of the hands' box, so its brackets are dropped there (the glow stays)
+              return (
+                <ThermalImage
+                  key={s.img}
+                  fill
+                  img={s.img}
+                  spots={box ? [box] : "none"}
+                  callouts={callouts}
+                  fade="lg-left"
+                  priority={k === 0}
+                  sizes="(min-width: 1024px) 66vw, 100vw"
+                  className="lg:short:[&_[data-brackets]]:hidden"
+                />
+              );
+            })}
+          </HeroReel>
           {/* keeps the header links legible where the photo is bright (the helmet) */}
           <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 hidden h-36 bg-linear-to-b from-night/85 to-transparent lg:block" />
           {/* viewfinder over the visible part of the photo, clear of the header and the proof strip */}

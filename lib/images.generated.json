@@ -73,11 +73,11 @@
  },
  "everyday-pov": {
   "w": 2400,
-  "h": 1602,
-  "alt": "Overhead first-person view of hands cutting a potato on a yellow chopping board, surrounded by vegetables and a pot of chopped potatoes and carrots",
+  "h": 3600,
+  "alt": "First-person view of own hands rinsing a knife under a running tap at a steel kitchen sink",
   "focal": [
-   40,
-   62
+   50,
+   50
   ],
   "hotspots": [
    {
@@ -90,13 +90,13 @@
   ],
   "credit": {
    "edits": [],
-   "title": "Fresh vegetables are being chopped for a hearty stew in a cozy kitchen",
-   "creator": "Nenad Stojković (Shixart1985)",
-   "creatorUrl": "https://commons.wikimedia.org/wiki/User:Shixart1985",
-   "source": "Wikimedia Commons",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fresh_vegetables_are_being_chopped_for_a_hearty_stew_in_a_cozy_kitchen.jpg",
-   "license": "CC BY 2.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+   "title": "First Person Dish Cleaning",
+   "creator": "Arek Olek",
+   "creatorUrl": "https://www.flickr.com/photos/arekolek/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/arekolek/5390460500/",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
   }
  },
  "close": {
@@ -328,29 +328,35 @@
  },
  "gap-skilled": {
   "w": 2400,
-  "h": 1600,
-  "alt": "Two rope-access technicians in hi-vis hanging on ropes against the outer wall of an offshore platform, under a clear blue sky",
+  "h": 1594,
+  "alt": "Two electricians in white hard hats crouch inside a hydroelectric generator; one holds a caged work lamp in gloved hands while they inspect the copper stator windings.",
   "focal": [
-   53,
-   56
+   58,
+   52
   ],
   "hotspots": [
    {
-    "x": 43,
-    "y": 46,
-    "w": 19,
-    "h": 30,
-    "label": "Rope-access technician at work"
+    "x": 41,
+    "y": 65,
+    "w": 23,
+    "h": 24,
+    "label": "Gloved hands + caged work lamp"
+   },
+   {
+    "x": 14,
+    "y": 36,
+    "w": 17,
+    "h": 20,
+    "label": "Gloved hand at the stator-winding repair"
    }
   ],
   "credit": {
-   "attribution": "Foto: Tommy Ellingsen, Norsk olje og gass",
    "edits": [],
-   "title": "Besøk Troll 17",
-   "creator": "Tommy Ellingsen / Norsk olje og gass (now Offshore Norge)",
-   "creatorUrl": "https://www.flickr.com/photos/olfnorge/",
+   "title": "Electricians at Wolf Creek Power Plant complete fix on a differential",
+   "creator": "U.S. Army Corps of Engineers Nashville District",
+   "creatorUrl": "https://www.flickr.com/photos/nashvillecorps/",
    "source": "Flickr",
-   "sourceUrl": "https://www.flickr.com/photos/olfnorge/29604991774/",
+   "sourceUrl": "https://www.flickr.com/photos/nashvillecorps/9934414725/",
    "license": "CC BY-SA 2.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
   }
@@ -512,6 +518,134 @@
    "sourceUrl": "https://www.flickr.com/photos/86561000@N05/31401996996",
    "license": "CC BY 2.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
+ },
+ "reel-3": {
+  "w": 2400,
+  "h": 1600,
+  "alt": "A track inspector in an orange helmet with a headlamp crouches on the track inside a dark railway tunnel and marks a sleeper in a pool of lamp light, a tablet beside him.",
+  "focal": [
+   62,
+   58
+  ],
+  "hotspots": [
+   {
+    "x": 45,
+    "y": 65,
+    "w": 12,
+    "h": 18,
+    "label": "Hand marking the sleeper in the lamp light"
+   },
+   {
+    "x": 48,
+    "y": 44,
+    "w": 5,
+    "h": 6,
+    "label": "Headlamp"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "Gotthard Inside II",
+   "creator": "Kecko",
+   "creatorUrl": "https://www.flickr.com/photos/kecko/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/kecko/22096912884/",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
+ },
+ "reel-4": {
+  "w": 2400,
+  "h": 1600,
+  "alt": "At night, two track workers with lit helmet lamps kneel at a new rail and work on it with gloved hands, while two colleagues stand by under the overhead line.",
+  "focal": [
+   58,
+   62
+  ],
+  "hotspots": [
+   {
+    "x": 54,
+    "y": 68,
+    "w": 16,
+    "h": 18,
+    "label": "Gloved hands at the new rail + lit helmet lamp"
+   }
+  ],
+  "credit": {
+   "edits": [
+    "mirrored"
+   ],
+   "title": "Track Construction Bad Ragaz-Sargans",
+   "creator": "Kecko",
+   "creatorUrl": "https://www.flickr.com/photos/kecko/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/kecko/49065256853/",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
+ },
+ "reel-5": {
+  "w": 2400,
+  "h": 1800,
+  "alt": "A track worker in a yellow helmet, orange hi-vis and green gloves guides a rail grinding machine along the rail while sparks fly at the rail head.",
+  "focal": [
+   62,
+   50
+  ],
+  "hotspots": [
+   {
+    "x": 48,
+    "y": 35,
+    "w": 15,
+    "h": 24,
+    "label": "Gloved hands on the rail grinder"
+   },
+   {
+    "x": 39,
+    "y": 79,
+    "w": 14,
+    "h": 10,
+    "label": "Sparks at the rail head"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "Breitengüßbach Schienenschleifer ABS Nürnberg–EbensfeldP7079482",
+   "creator": "Reinhold Möller (Ermell)",
+   "creatorUrl": "https://commons.wikimedia.org/wiki/User:Ermell",
+   "source": "Wikimedia Commons",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Breiteng%C3%BC%C3%9Fbach_Schienenschleifer_ABS_N%C3%BCrnberg%E2%80%93EbensfeldP7079482.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
+ "reel-6": {
+  "w": 2400,
+  "h": 1594,
+  "alt": "Seen over his shoulder, a welder in a safety harness and welding hood welds a steel bracket on lock-gate machinery with gloved hands; the arc flares bright.",
+  "focal": [
+   46,
+   45
+  ],
+  "hotspots": [
+   {
+    "x": 38,
+    "y": 25,
+    "w": 17,
+    "h": 28,
+    "label": "Welding arc + gloved hands"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "Cheatham Lock scheduled to reopen after major maintenance repairs",
+   "creator": "Fred Tucker / U.S. Army Corps of Engineers Nashville District",
+   "creatorUrl": "https://www.flickr.com/photos/nashvillecorps/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/nashvillecorps/8187880031/",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
   }
  }
 }
