@@ -206,46 +206,39 @@ export const buyers = {
   who: ["Robotics & humanoid companies", "Physical-AI labs", "World-model teams", "AI training-data brokers", "Industrial AI vendors"],
 };
 
+export type Service = { icon: IconName; title: string; text: string };
+
 export const model = {
   eyebrow: "Our role",
-  title: "We add value on both sides.",
-  lead: "We help field companies turn their expertise into a data asset, and help AI teams and data brokers find data they can't get anywhere else.",
+  title: "We work for both sides.",
+  lead: "Field companies get help turning their expertise into value. Data brokers and AI teams get the data, deals and partners they can't find elsewhere.",
   supply: {
     icon: "hard-hat" as IconName,
-    title: "Field companies",
+    title: "For field companies",
     who: "Rail operators, utilities, shipyards, contractors",
-    gets: [
-      "Help to lease or sell their data",
-      "Consultants to organise and curate it",
-      "Ready for sale, for its value, or to train their own AI",
-    ],
-  },
-  us: {
-    title: "Enlightdata.ai",
-    steps: ["Find the right crews", "Agree the rights", "Guide the capture", "Curate and label", "Place it with buyers"],
+    services: [
+      { icon: "handshake", title: "Lease or sell your data", text: "We find the buyers and arrange the lease or sale, on your terms." },
+      { icon: "user-check", title: "Specialists to curate it", text: "We bring in consultants to organise and curate your footage." },
+      { icon: "trend", title: "For sale, for value, or your own AI", text: "Curated data ready to sell, worth more, or to train your own AI in-house." },
+    ] satisfies Service[],
   },
   demand: {
     icon: "bot" as IconName,
-    title: "AI teams & data brokers",
+    title: "For data brokers & AI teams",
     who: "AI training-data brokers, robotics and physical-AI teams",
-    gets: [
-      "The data they're looking for",
-      "Deals and contracts signed, the right companies found",
-      "Partners to curate data, and niche fields others can't reach",
-    ],
+    services: [
+      { icon: "search", title: "The data you're looking for", text: "Footage by trade, task and region — leased, bought or captured to order." },
+      { icon: "signature", title: "Deals and contracts", text: "We help sign the deals and contracts, and find the right companies." },
+      { icon: "scan-eye", title: "Curation partners & rare niches", text: "Partners to curate data, and very specific, in-demand fields others can't reach." },
+    ] satisfies Service[],
   },
-  flows: {
-    toUs: "Footage + consent",
-    toBuyer: "Curated datasets",
-    fromBuyer: "Licence fees",
-    toSupplier: "Revenue share",
-  },
+  us: "Enlightdata.ai",
   earnTitle: "What we bring",
   earn: [
     { icon: "shield-check", title: "Trust on both sides", text: "Consent, contracts and clean rights, so every deal is safe to sign." },
     { icon: "repeat", title: "A network of specialists", text: "Consultants and curation partners, matched to each company and field." },
     { icon: "refresh", title: "Fresh, in-demand data", text: "Equipment and methods keep changing — we keep the supply up to date." },
-  ] satisfies { icon: IconName; title: string; text: string }[],
+  ] satisfies Service[],
 };
 
 export const options = {
