@@ -164,20 +164,20 @@ export const fields = {
 };
 
 export const why = {
-  eyebrow: "Why this work",
-  title: "Simple tasks will be filmed everywhere. Skilled field work can't be.",
-  simple: {
-    title: "Repeatable tasks",
-    points: ["Same station, same motion, all day", "Easy to film in high volume", "Already being captured at scale — often in lower-cost regions"],
-  },
-  skilled: {
-    title: "Skilled field work",
-    points: [
-      "Different every time — equipment age, make, rulebook, weather, access",
-      "Done by certified crews on live infrastructure",
-      "Shaped by European and North American equipment and rules — so the footage has to come from here",
-    ],
-  },
+  eyebrow: "Why skilled work",
+  title: "Skilled field work isn't one task. It's thousands.",
+  lead: "Every trade splits into many jobs, every job into steps, and every step into judgement calls that take people years to learn. A robot can't pick that up from one video.",
+  simple: "Repeatable tasks — same station, same motion — are already filmed at scale.",
+  tradesTitle: "One field, many trades",
+  trades: [
+    { trade: "Rail", tasks: ["Gauge checks", "Rail grinding", "Switch repair"], call: "Is this crack within limits?" },
+    { trade: "Grid", tasks: ["Live-line work", "Pole replacement", "Fault finding"], call: "Work it live, or isolate first?" },
+    { trade: "Water & sewer", tasks: ["Pump overhaul", "Valve swaps", "Pipe inspection"], call: "Repair now, or schedule it?" },
+    { trade: "Marine", tasks: ["Hull surveys", "Engine fitting", "Weld repair"], call: "Is the plate thick enough to pass?" },
+    { trade: "Oil & gas", tasks: ["Rigging & lifting", "Flange bolting", "Leak testing"], call: "Is that lift safe in this wind?" },
+    { trade: "Machinery", tasks: ["Bearing changes", "Alignment", "Diagnostics"], call: "Just noise, or a failure coming?" },
+  ],
+  callLabel: "Judgement call",
   equation: {
     title: "One job, many versions",
     task: "Brake inspection",
@@ -208,60 +208,60 @@ export const buyers = {
 
 export const model = {
   eyebrow: "Our role",
-  title: "We're the middlemen.",
-  lead: "We connect the companies whose crews do the work with the teams that need to see it.",
+  title: "We add value on both sides.",
+  lead: "We help field companies turn their expertise into a data asset, and help AI teams and data brokers find data they can't get anywhere else.",
   supply: {
     icon: "hard-hat" as IconName,
     title: "Field companies",
     who: "Rail operators, utilities, shipyards, contractors",
-    gets: "Income from work they already do — or their own data, set up with specialists.",
+    gets: "Buyers for footage of work they already do — or specialists to curate it for sale or for their own AI.",
   },
   us: {
     title: "Enlightdata.ai",
-    steps: ["Find the crews", "Agree the rights", "Guide the capture", "Check and clean", "License the footage"],
+    steps: ["Find the right crews", "Agree the rights", "Guide the capture", "Curate and label", "Place it with buyers"],
   },
   demand: {
     icon: "bot" as IconName,
-    title: "AI teams & AI training-data brokers",
-    who: "Robotics and physical-AI teams, world-model builders, data brokers",
-    gets: "Real-world footage they can't film themselves — bought, leased or sourced to order.",
+    title: "AI teams & data brokers",
+    who: "AI training-data brokers, robotics and physical-AI teams, world-model builders",
+    gets: "Hard-to-find footage from niche, high-skill fields — plus the deals, contracts and partners behind it.",
   },
   flows: {
     toUs: "Footage + consent",
-    toBuyer: "Licensed datasets",
+    toBuyer: "Curated datasets",
     fromBuyer: "Licence fees",
     toSupplier: "Revenue share",
   },
-  earnTitle: "How we earn",
+  earnTitle: "How the value flows",
   earn: [
-    { icon: "percent", title: "Brokerage fee", text: "A share of every licence we place." },
-    { icon: "repeat", title: "Capture programmes", text: "Fees for setting up and running recurring capture." },
-    { icon: "refresh", title: "Repeat orders", text: "Equipment and tasks keep changing — buyers keep needing fresh footage." },
+    { icon: "percent", title: "Brokerage", text: "A share of each deal we make happen." },
+    { icon: "repeat", title: "Capture & curation programmes", text: "Setting up and running recurring capture and curation." },
+    { icon: "refresh", title: "Ongoing supply", text: "Equipment and methods keep changing — we keep the data fresh." },
   ] satisfies { icon: IconName; title: string; text: string }[],
 };
 
 export const options = {
   eyebrow: "Ways to work with us",
-  title: "Two sides. Three ways in.",
+  title: "Two sides. One partner.",
   sides: [
     {
       icon: "hard-hat" as IconName,
       title: "Field companies",
       who: "Rail operators, utilities, shipyards, contractors",
       items: [
-        { title: "License your footage", text: "Earn from work your crews already do. We handle buyers, contracts and quality." },
-        { title: "Build your own data asset", text: "Keep the footage in-house — we connect you with specialists to organise, store and use it." },
-        { title: "Hybrid", text: "Keep what's sensitive in-house and license the rest." },
+        { title: "Lease or sell your data", text: "We find buyers and arrange leases or sales of footage from work your crews already do — contracts and quality handled." },
+        { title: "Curate it with specialists", text: "We bring in consultants to organise and curate your data — for sale, for its value, or to train your own AI in-house." },
+        { title: "Hybrid", text: "Keep what's sensitive in-house for your own use, and license the rest." },
       ],
     },
     {
       icon: "bot" as IconName,
       title: "AI teams & data brokers",
-      who: "Robotics and physical-AI teams, world-model builders, AI training-data brokers",
+      who: "AI training-data brokers, robotics and physical-AI teams, world-model builders",
       items: [
-        { title: "Buy or lease datasets", text: "Licensed footage by trade, task and region." },
-        { title: "Source to order", text: "Name the job — we find the crews and run the capture." },
-        { title: "Advise field companies", text: "Brokers help companies organise, store and grow their data — we make the introductions." },
+        { title: "The data you're looking for", text: "Licensed footage by trade, task and region — leased, bought or captured to order." },
+        { title: "Deals and contracts", text: "We help sign deals, set up contracts and find the right companies, including partners to curate data." },
+        { title: "Hard-to-find niches", text: "We seek out partners in very specific, in-demand fields and niches you struggle to find elsewhere." },
       ],
     },
   ],

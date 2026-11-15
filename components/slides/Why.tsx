@@ -2,43 +2,46 @@ import { Fragment } from "react";
 import { Illustrative, Slide, SlideEyebrow } from "@/components/deck/Slide";
 import { why } from "@/lib/content";
 
-/** 05 — the thesis: repeatable tasks scale anywhere; field work multiplies into variants. */
+/** 07 — the thesis: skilled field work branches into trades, tasks and judgement calls, and each job into many versions. */
 export function WhySlide() {
   const eq = why.equation;
   return (
     <Slide id="why">
-      <div className="max-w-[900px]">
-        <SlideEyebrow id="why" />
-        <h2 className="t-h2 mt-5 text-white">{why.title}</h2>
-      </div>
-
-      <div className="mt-10 grid gap-3 md:grid-cols-2 lg:short:mt-7">
-        <div className="card-night p-6 lg:p-8">
-          <h3 className="t-h3 text-white/60">{why.simple.title}</h3>
-          <ul className="mt-5 space-y-3">
-            {why.simple.points.map((p) => (
-              <li key={p} className="flex gap-3 text-[0.95rem] leading-snug text-white/50">
-                <span aria-hidden className="mt-[0.6em] h-px w-3 shrink-0 bg-white/35" />
-                {p}
-              </li>
-            ))}
-          </ul>
+      <div className="grid gap-6 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:items-end lg:gap-16">
+        <div>
+          <SlideEyebrow id="why" />
+          <h2 className="t-h2 mt-5 text-white">{why.title}</h2>
         </div>
-        <div className="relative overflow-hidden rounded-[10px] border border-accent-night/45 bg-night-2 p-6 lg:p-8">
-          <span aria-hidden className="heat-gradient absolute inset-x-0 top-0 h-[3px]" />
-          <h3 className="t-h3 text-white">{why.skilled.title}</h3>
-          <ul className="mt-5 space-y-3">
-            {why.skilled.points.map((p) => (
-              <li key={p} className="flex gap-3 text-[0.95rem] leading-snug text-white/85">
-                <span aria-hidden className="mt-[0.45em] h-1.5 w-1.5 shrink-0 rounded-full bg-accent-night" />
-                {p}
-              </li>
-            ))}
-          </ul>
+        <div>
+          <p className="t-lead text-white/75">{why.lead}</p>
+          <p className="mt-3 flex gap-3 text-[0.85rem] leading-snug text-white/45">
+            <span aria-hidden className="mt-[0.6em] h-px w-3 shrink-0 bg-white/35" />
+            {why.simple}
+          </p>
         </div>
       </div>
 
-      <div className="mt-10 lg:short:mt-7">
+      <div className="mt-9 lg:short:mt-6">
+        <p className="eyebrow text-white/60">{why.tradesTitle}</p>
+        <ul className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+          {why.trades.map((t, k) => (
+            <li key={t.trade} className="group relative overflow-hidden rounded-[10px] border border-white/12 bg-night-2 px-5 py-4 lg:short:py-3">
+              <span aria-hidden className="heat-gradient absolute inset-y-0 left-0 w-[2px] opacity-70" />
+              <div className="flex items-baseline justify-between gap-3">
+                <p className="t-h4 text-white">{t.trade}</p>
+                <span className="font-mono text-[10px] tracking-[0.14em] text-white/35">{String(k + 1).padStart(2, "0")}</span>
+              </div>
+              <p className="mt-1.5 text-[0.82rem] leading-snug text-white/60">{t.tasks.join(" · ")} · …</p>
+              <p className="mt-2.5 flex items-baseline gap-2 text-[0.85rem] leading-snug text-white">
+                <span className="shrink-0 font-mono text-[9.5px] uppercase tracking-[0.14em] text-accent-night">{why.callLabel}</span>
+                “{t.call}”
+              </p>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="mt-8 lg:short:mt-5">
         <div className="flex items-center gap-3">
           <p className="eyebrow text-white/60">{eq.title}</p>
           <Illustrative dark />
