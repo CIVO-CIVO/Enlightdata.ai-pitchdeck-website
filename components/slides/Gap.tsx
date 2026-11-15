@@ -7,7 +7,7 @@ import { gap } from "@/lib/content";
 
 /** 02 — the gap: simple work is filmed at scale in Asia; high-skill manual work in Europe and North America is not. */
 export function GapSlide() {
-  const skilled = getImage("reel-3")?.hotspots[0];
+  const skilled = getImage("pov-hero")?.hotspots[0];
   return (
     <Slide id="gap">
       <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)] lg:gap-16">
@@ -30,7 +30,7 @@ export function GapSlide() {
 
         <div>
           <figure className="relative aspect-[5/4] overflow-hidden rounded-[10px] bg-night">
-            <ThermalImage fill img="reel-3" spots={skilled ? [skilled] : "none"} sizes="(min-width: 1024px) 52vw, 100vw" />
+            <ThermalImage fill img="pov-hero" spots={skilled ? [skilled] : "none"} sizes="(min-width: 1024px) 52vw, 100vw" />
             <Chip tone="dark" label={gap.scarce.label} />
             <figcaption className="absolute inset-x-0 bottom-0 z-[6] bg-[linear-gradient(180deg,rgba(17,17,17,0),rgba(17,17,17,0.9)_55%)] px-4 pb-4 pt-12 font-display text-[0.95rem] font-semibold leading-tight tracking-[-0.01em] text-white">
               {gap.scarce.text}

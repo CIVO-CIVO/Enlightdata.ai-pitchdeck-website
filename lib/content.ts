@@ -52,7 +52,7 @@ export const gap = {
   eyebrow: "The gap",
   title: "Asia is filming simple work. Nobody is filming the experts.",
   lead: "Low- and medium-skill labour is already filmed at scale in Asia. High-skill manual work in Europe and North America isn't, and the people who know it are retiring.",
-  scarce: { label: "Very little footage", text: "Welders, linemen, rail and marine technicians" },
+  scarce: { label: "Very little footage", text: "Tunnellers, welders, linemen and rail technicians" },
   points: [
     { icon: "trend", title: "A supply shock is coming", text: "Experienced tradespeople in Europe and North America are retiring faster than they're replaced. Their know-how leaves with them." },
     { icon: "lock", title: "Supply is locked away", text: "Skilled field work happens on live sites, behind safety rules, permits and contracts." },
