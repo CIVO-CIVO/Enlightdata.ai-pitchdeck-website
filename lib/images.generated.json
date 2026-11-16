@@ -677,5 +677,203 @@
    "license": "CC BY 2.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   }
+ },
+ "task-tamper": {
+  "w": 2400,
+  "h": 1600,
+  "alt": "At dusk, a technician in hi-vis checks the working units of a heavy track-tamping machine",
+  "focal": [
+   70,
+   50
+  ],
+  "hotspots": [
+   {
+    "x": 66,
+    "y": 30,
+    "w": 16,
+    "h": 30,
+    "label": "Hands at the tamping units"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "Track Construction - Scheuchzer B 2001",
+   "creator": "Kecko",
+   "creatorUrl": "https://www.flickr.com/photos/kecko/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/kecko/49058684651/",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
+ },
+ "task-tower": {
+  "w": 2400,
+  "h": 1800,
+  "alt": "Two technicians in harnesses climb a lattice radio tower to place its top section",
+  "focal": [
+   60,
+   40
+  ],
+  "hotspots": [
+   {
+    "x": 52,
+    "y": 26,
+    "w": 16,
+    "h": 46,
+    "label": "Climbers on the tower"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "Buxton Mountain radio tower installation",
+   "creator": "Oregon Department of Transportation",
+   "creatorUrl": "https://www.flickr.com/photos/28364885@N02/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/28364885@N02/13976835716",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
+ },
+ "task-motor": {
+  "w": 2160,
+  "h": 1438,
+  "alt": "Two technicians in hard hats guide an electric traction motor on a hoist in a rail workshop",
+  "focal": [
+   45,
+   45
+  ],
+  "hotspots": [
+   {
+    "x": 42,
+    "y": 28,
+    "w": 26,
+    "h": 22,
+    "label": "Gloved hands on the motor"
+   }
+  ],
+  "credit": {
+   "edits": [
+    "maker lettering on the workshop machine blurred"
+   ],
+   "title": "Scheduled Maintenance System at Coney Island Yard",
+   "creator": "Metropolitan Transportation Authority",
+   "creatorUrl": "https://www.flickr.com/photos/mtaphotos/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/mtaphotos/9689839818/",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
+ },
+ "task-hull": {
+  "w": 2400,
+  "h": 1800,
+  "alt": "A welder seated under a ferry hull in dry dock welds the bottom plating",
+  "focal": [
+   55,
+   50
+  ],
+  "hotspots": [
+   {
+    "x": 41,
+    "y": 36,
+    "w": 18,
+    "h": 20,
+    "label": "Welder at the hull plate"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "welding hull plate",
+   "creator": "NCDOTcommunications",
+   "creatorUrl": "https://www.flickr.com/photos/39320593@N03/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/39320593@N03/5809202108",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
+ },
+ "task-doubler": {
+  "w": 2400,
+  "h": 1594,
+  "alt": "Two workers fit and cut a doubler plate under a ship's hull, sparks at their feet",
+  "focal": [
+   50,
+   55
+  ],
+  "hotspots": [
+   {
+    "x": 30,
+    "y": 38,
+    "w": 42,
+    "h": 30,
+    "label": "Hands, tools and sparks"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "Het aanbrengen van een dubbelplaat (04)",
+   "creator": "S.J. de Waard",
+   "creatorUrl": "https://commons.wikimedia.org/wiki/User:S.J._de_Waard",
+   "source": "Wikimedia Commons",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Het_aanbrengen_van_een_dubbelplaat_(04).JPG",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  }
+ },
+ "task-driller": {
+  "w": 2400,
+  "h": 1600,
+  "alt": "Seen from behind, a driller in a hard hat works the console levers on a land rig floor",
+  "focal": [
+   35,
+   40
+  ],
+  "hotspots": [
+   {
+    "x": 8,
+    "y": 10,
+    "w": 14,
+    "h": 22,
+    "label": "Hand on the console levers"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "Williston North Dakota Oil Field On The Rig Deck",
+   "creator": "Lindsey G",
+   "creatorUrl": "https://www.flickr.com/photos/lindseygee/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/lindseygee/5894085313/",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
+ },
+ "task-tbm": {
+  "w": 2400,
+  "h": 1594,
+  "alt": "Two workers inside the trailing gear of a tunnel boring machine under Washington, D.C.",
+  "focal": [
+   45,
+   55
+  ],
+  "hotspots": [
+   {
+    "x": 22,
+    "y": 36,
+    "w": 40,
+    "h": 40,
+    "label": "Crew inside the machine"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "D.C. Water",
+   "creator": "U.S. Environmental Protection Agency",
+   "creatorUrl": "https://www.epa.gov/",
+   "source": "Wikimedia Commons",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:D.C._Water_(15674420173).jpg",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  }
  }
 }

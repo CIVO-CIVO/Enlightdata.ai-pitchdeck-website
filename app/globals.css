@@ -531,3 +531,8 @@
   .reel-scene { transition: none; }
   .reel-scene:is([data-on], [data-prev]) .reel-push { animation: none; }
 }
+
+/* 07 why: endless line of expert checks under the task reels */
+.task-ticker { animation: task-ticker 70s linear infinite; }
+@keyframes task-ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .task-ticker { animation: none; } }

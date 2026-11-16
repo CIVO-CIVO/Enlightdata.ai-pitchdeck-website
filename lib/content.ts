@@ -162,27 +162,34 @@ export const fields = {
   ] satisfies Field[],
 };
 
+export type TaskScene = { img: string; trade: string; task: string; call: string };
+
 export const why = {
   eyebrow: "Why skilled work",
   title: "Skilled field work isn't one task. It's thousands.",
-  lead: "Most of the job is looking, checking and deciding. Experts do it in seconds, from years of experience.",
-  rangeTitle: "A few of the tasks",
-  trades: [
-    { trade: "Rail", tasks: ["Rail cracks", "Track gauge", "Switch fit"], call: "Close it, or slow trains?" },
-    { trade: "Grid", tasks: ["Insulators", "Hot spots", "Pole lean"], call: "Work live, or isolate?" },
-    { trade: "Water & sewer", tasks: ["Pipe walls", "Pump vibration", "Valve seats"], call: "Reline, or dig up?" },
-    { trade: "Marine", tasks: ["Hull pitting", "Plate thickness", "Shaft seals"], call: "Pass, or dry dock?" },
-    { trade: "Oil & gas", tasks: ["Flange corrosion", "Bolt torque", "Small leaks"], call: "Lift, or wait for wind?" },
-    { trade: "Machinery", tasks: ["Bearing wear", "Alignment", "Noise and heat"], call: "Run on, or stop now?" },
+  lead: "Every job is looking, checking and deciding. Experts make these calls in seconds, from years on the job.",
+  reels: [
+    [
+      { img: "task-tamper", trade: "Rail", task: "Check the tamping units", call: "Worn, or good for another shift?" },
+      { img: "task-tbm", trade: "Tunnels", task: "Inspect the boring machine", call: "Fix now, or at the next stop?" },
+    ],
+    [
+      { img: "task-hull", trade: "Marine", task: "Weld the bottom plating", call: "Is the steel behind it sound?" },
+      { img: "task-motor", trade: "Rail depot", task: "Refit a traction motor", call: "That noise: normal, or failing?" },
+      { img: "task-doubler", trade: "Shipyard", task: "Fit a doubler plate", call: "Patch it, or replace the section?" },
+    ],
+    [
+      { img: "task-tower", trade: "Telecom", task: "Climb and inspect the tower", call: "Loose bolt, or just surface rust?" },
+      { img: "task-driller", trade: "Oil & gas", task: "Run the rig floor", call: "Pressure spike: act, or watch?" },
+    ],
+  ] as TaskScene[][],
+  ticker: [
+    "Is this crack within limits?", "Hot spot on the insulator", "Weeping, or leaking?", "Check bolt torque", "Bearing too warm?",
+    "Plate thickness test", "Cosmetic, or structural?", "Read the vibration", "Can it wait until shutdown?", "Smell of burnt oil",
+    "Switch blade fit", "Corrosion under the paint?", "Lift, or wait for wind?", "Pipe wall from inside", "Work live, or isolate?",
+    "Replace now", "Watch it", "Fix later", "It's fine",
   ],
   more: "+ thousands more",
-  case: {
-    title: "One quick check",
-    finding: "Rust on a pump flange",
-    questions: ["Surface rust, or wall loss?", "Cosmetic, or structural?", "Can it wait until shutdown?"],
-    outcomes: ["Fine", "Watch", "Fix later", "Replace now"],
-    note: "None of this is written down. It's on camera.",
-  },
 };
 
 export const buyers = {
