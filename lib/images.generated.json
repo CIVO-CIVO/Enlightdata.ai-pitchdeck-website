@@ -647,5 +647,35 @@
    "license": "CC BY-SA 2.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
   }
+ },
+ "gap-tunnel-weld": {
+  "w": 2160,
+  "h": 1438,
+  "alt": "A welder in a face shield and gloves repairs a fitting in a subway tunnel, sparks flying beside the rails",
+  "focal": [
+   52,
+   55
+  ],
+  "hotspots": [
+   {
+    "x": 44,
+    "y": 55,
+    "w": 18,
+    "h": 25,
+    "label": "Gloved hands + welding arc"
+   }
+  ],
+  "credit": {
+   "edits": [
+    "welding-machine brand logo blurred"
+   ],
+   "title": "Montague Tube Fix&Fortify Repair Work",
+   "creator": "Metropolitan Transportation Authority",
+   "creatorUrl": "https://www.flickr.com/photos/mtaphotos/",
+   "source": "Flickr",
+   "sourceUrl": "https://www.flickr.com/photos/mtaphotos/15182562645/",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
  }
 }
