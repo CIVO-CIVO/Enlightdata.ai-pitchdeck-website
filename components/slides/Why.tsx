@@ -2,7 +2,7 @@ import { Slide, SlideEyebrow } from "@/components/deck/Slide";
 import { TaskReel } from "@/components/deck/TaskReel";
 import { why } from "@/lib/content";
 
-/** 07: skilled field work is thousands of tasks and judgement calls: three task reels and an endless line of checks. */
+/** 03: skilled field work is thousands of tasks and judgement calls: three task reels and an endless line of checks. */
 export function WhySlide() {
   const starts = why.reels.map((_, r) => 1 + why.reels.slice(0, r).reduce((n, x) => n + x.length, 0));
   const line = [...why.ticker, ...why.ticker];

@@ -20,11 +20,11 @@ export default function PitchPage() {
       <main id="main">
         <HeroSlide />
         <GapSlide />
+        <WhySlide />
         <DataSlide />
         <PipelineSlide />
         <JobsSlide />
         <FieldsSlide />
-        <WhySlide />
         <BuyersSlide />
         <ModelSlide />
         <ProcessSlide />

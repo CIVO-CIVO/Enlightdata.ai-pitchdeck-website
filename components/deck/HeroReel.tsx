@@ -19,6 +19,8 @@ export function HeroReel({ children, labels, every = 6000 }: { children: ReactNo
           <div className="reel-push absolute inset-0">{s}</div>
         </div>
       ))}
+      {/* keeps the header links readable over bright frames (sky, windows) */}
+      <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 z-[3] h-36 bg-[linear-gradient(180deg,rgba(17,17,17,0.85),rgba(17,17,17,0))]" />
       <div className="pointer-events-none absolute bottom-[150px] left-[34%] z-[6] hidden items-center gap-3 font-mono text-[10.5px] uppercase tracking-[0.16em] text-white/85 lg:flex lg:short:bottom-[140px]">
         <span className="whitespace-nowrap rounded-[3px] bg-accent-night px-1.5 py-[3px] text-on-accent">Scenario {String(i + 1).padStart(2, "0")}/{String(scenes.length).padStart(2, "0")}</span>
         <span key={i} className="anim-fade">{labels[i]}</span>

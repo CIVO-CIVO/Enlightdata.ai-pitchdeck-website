@@ -12,11 +12,11 @@ The full v1 website — 15 concepts, the 176-task dataset and the business plan 
 |---|---|---|
 | 01 | Hero | Skilled work, seen through the worker's eyes: helmet cams, bodycams, Europe + North America, rights-cleared |
 | 02 | The gap | AI has watched people cook, not fix a railway. Demand is rising, supply is locked away, the work can't be staged. Plus a scale of where first-person footage exists today (qualitative) |
-| 03 | What we broker | First-person footage of real jobs: helmet cams, bodycams, smart glasses; what every dataset includes |
-| 04 | Inside the data | Diagram: from the job (helmet-cam video, bodycam video, commentary, job details) → Enlightdata.ai (consent, clean, label, license) → to the buyer. Note: we're a broker, not a model builder |
-| 05 | Example capture | One rail job as data: annotated frame + clip record, plus two more examples (illustrative) |
-| 06 | Seven fields | Rail first; water/sewage/tunnels, shipyards & marine, industrial machinery, oil & gas, grid/telecom, construction & heavy equipment |
-| 07 | Why skilled work | Simple tasks get filmed everywhere; field work multiplies into variants (illustrative 1 × 4 × 5 × 2 × 4 = 160) |
+| 03 | Why skilled work | Thousands of tasks: three photo slideshows (offshore oil & gas, drilling, grid substation, rail, marine, tunnels, one wind job), each with the expert's question, and a moving line of checks |
+| 04 | What we broker | First-person footage of real jobs: helmet cams, bodycams, smart glasses; what every dataset includes |
+| 05 | Inside the data | Diagram: from the job (helmet-cam video, bodycam video, commentary, job details) → Enlightdata.ai (consent, clean, label, license) → to the buyer. Note: we're a broker, not a model builder |
+| 06 | Example capture | One rail job as data: annotated frame + clip record, plus two more examples (illustrative) |
+| 07 | Seven fields | Rail first; water/sewage/tunnels, shipyards & marine, industrial machinery, oil & gas, grid/telecom, construction & heavy equipment |
 | 08 | Use cases | What buyers build: robot learning, world models, work assistants, inspection AI (drawn explainers); typical buyers |
 | 09 | Our role | We're the middlemen: field companies ⇄ Enlightdata.ai ⇄ AI teams & brokers; how we earn |
 | 10 | How a deal works | Match → Agree → Capture → Check → License |
