@@ -183,6 +183,7 @@ export const why = {
     ],
     [
       { img: "task-drillfloor", trade: "Offshore drilling", task: "Check the drill floor", call: "Hose chafing, or just dirty?" },
+      { img: "hero-crane", trade: "North Sea rig", task: "Run the platform crane", call: "Lift now, or wait for the swell?" },
       { img: "task-doubler", trade: "Shipyard", task: "Fit a doubler plate", call: "Patch it, or replace the section?" },
       { img: "task-driller", trade: "Oil & gas", task: "Run the rig floor", call: "Pressure spike: act, or watch?" },
       { img: "task-blade", trade: "Wind power", task: "Check a blade on ropes", call: "Edge erosion, or a crack?" },
