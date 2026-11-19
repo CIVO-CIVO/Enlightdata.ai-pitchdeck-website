@@ -20,7 +20,7 @@ export function HeroReel({ children, labels, every = 6000 }: { children: ReactNo
         </div>
       ))}
       <div className="pointer-events-none absolute bottom-[150px] left-[34%] z-[6] hidden items-center gap-3 font-mono text-[10.5px] uppercase tracking-[0.16em] text-white/85 lg:flex lg:short:bottom-[140px]">
-        <span className="rounded-[3px] bg-accent-night px-1.5 py-[3px] text-on-accent">Scenario {String(i + 1).padStart(2, "0")}/{String(scenes.length).padStart(2, "0")}</span>
+        <span className="whitespace-nowrap rounded-[3px] bg-accent-night px-1.5 py-[3px] text-on-accent">Scenario {String(i + 1).padStart(2, "0")}/{String(scenes.length).padStart(2, "0")}</span>
         <span key={i} className="anim-fade">{labels[i]}</span>
         <span className="ml-1 flex gap-1">
           {scenes.map((_, k) => (

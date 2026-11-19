@@ -178,12 +178,14 @@ export const why = {
     [
       { img: "task-gauge", trade: "Offshore oil & gas", task: "Witness a pressure test", call: "Holding steady, or a slow leak?" },
       { img: "task-hull", trade: "Marine", task: "Weld the bottom plating", call: "Is the steel behind it sound?" },
+      { img: "task-nacelle", trade: "Wind power", task: "Inspect from the nacelle", call: "Is that blade running true?" },
       { img: "task-motor", trade: "Rail depot", task: "Refit a traction motor", call: "That noise: normal, or failing?" },
       { img: "task-doubler", trade: "Shipyard", task: "Fit a doubler plate", call: "Patch it, or replace the section?" },
     ],
     [
       { img: "task-drillfloor", trade: "Offshore drilling", task: "Check the drill floor", call: "Hose chafing, or just dirty?" },
       { img: "task-tower", trade: "Telecom", task: "Climb and inspect the tower", call: "Loose bolt, or just surface rust?" },
+      { img: "task-solar", trade: "Solar", task: "Fit panels on the array", call: "Cracked cell, or just glare?" },
       { img: "task-driller", trade: "Oil & gas", task: "Run the rig floor", call: "Pressure spike: act, or watch?" },
     ],
   ] as TaskScene[][],

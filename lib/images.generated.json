@@ -991,5 +991,98 @@
    "license": "Public domain",
    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
   }
+ },
+ "hero-troll": {
+  "w": 2400,
+  "h": 1600,
+  "alt": "On the deck of the Troll platform in the North Sea, a worker in hi-vis and dirty work gloves handles heavy lifting chains with both hands",
+  "focal": [
+   92,
+   55
+  ],
+  "hotspots": [
+   {
+    "x": 67,
+    "y": 40,
+    "w": 29,
+    "h": 40,
+    "label": "Gloved hand gripping the lifting chain"
+   },
+   {
+    "x": 28,
+    "y": 2,
+    "w": 28,
+    "h": 36,
+    "label": "Second hand on the chain"
+   }
+  ],
+  "credit": {
+   "edits": [
+    "mirrored"
+   ],
+   "title": "Besøk Troll 24",
+   "creator": "Tommy Ellingsen / Norsk olje og gass",
+   "creatorUrl": "https://www.flickr.com/photos/olfnorge/",
+   "source": "Wikimedia Commons",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bes%C3%B8k_Troll_24_(29605765153).jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+  }
+ },
+ "task-solar": {
+  "w": 1920,
+  "h": 1295,
+  "alt": "Two installers in hard hats lift and fit solar panels on a large rooftop array",
+  "focal": [
+   40,
+   40
+  ],
+  "hotspots": [
+   {
+    "x": 24,
+    "y": 3,
+    "w": 26,
+    "h": 38,
+    "label": "Installer lifting a panel"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "Installing Solar Panels",
+   "creator": "Dennis Schroeder / U.S. Department of Energy",
+   "creatorUrl": "https://www.flickr.com/photos/departmentofenergy/",
+   "source": "Wikimedia Commons",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Installing_Solar_Panels_(7336033672).jpg",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  }
+ },
+ "task-nacelle": {
+  "w": 1920,
+  "h": 1233,
+  "alt": "Tethered on top of a wind-turbine nacelle, a mechanic looks across to inspect the other turbines on Ascension Island",
+  "focal": [
+   15,
+   55
+  ],
+  "hotspots": [
+   {
+    "x": 10,
+    "y": 26,
+    "w": 32,
+    "h": 44,
+    "label": "Mechanic on the nacelle"
+   }
+  ],
+  "credit": {
+   "edits": [],
+   "title": "Ascension Island Green Way",
+   "creator": "Lance Cheung / U.S. Air Force",
+   "creatorUrl": "https://www.af.mil/",
+   "source": "Wikimedia Commons",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ascension_Island_Green_Way_(9294).jpg",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  }
  }
 }
