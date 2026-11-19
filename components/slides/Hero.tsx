@@ -10,7 +10,7 @@ import { HeroReel } from "@/components/deck/HeroReel";
 /** 01 — dark hero: copy left, the helmet-cam frame bleeding in from the right (refs 2, 8, 12). */
 /** problem scenarios the banner cycles through: the image key and the line shown under it */
 const SCENES: { img: string; label: string; callout: string }[] = [
-  { img: "hero-rope", label: "North Sea rig · rope access · NO", callout: "Gloved hands on the descender" },
+  { img: "hero-platform", label: "North Sea platform · deck crew · NO", callout: "Crew at the deck railing" },
   { img: "field-grid", label: "Line fault · repair at the crossarm, at height · US", callout: "Gloved hands at work" },
   { img: "reel-4", label: "Night renewal · fitting a new rail · CH", callout: "Hands at the rail" },
   { img: "reel-5", label: "Worn rail · grinding the profile back · DE", callout: "Tool on the rail" },

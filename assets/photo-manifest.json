@@ -1024,35 +1024,31 @@
     ]
   },
   {
-    "key": "hero-rope",
-    "file": "hero-rope.jpg",
-    "title": "Besøk Troll 17",
+    "key": "hero-platform",
+    "file": "hero-platform.jpg",
+    "title": "Besøk Troll 50",
     "creator": "Tommy Ellingsen / Norsk olje og gass",
     "creatorUrl": "https://www.flickr.com/photos/olfnorge/",
-    "source": "Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bes%C3%B8k_Troll_17_(29604991774).jpg",
+    "source": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/olfnorge/29938697700/",
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
-    "alt": "Outside on the Troll A platform in the North Sea, a rope-access technician in hi-vis hangs from his ropes against a blue sky and works his way down the platform wall, a colleague below him",
+    "alt": "On the Troll A platform in the North Sea, two crew in hard hats and ear defenders stand at the railing of a lower deck that hangs out over the open sea, with stairs leading down towards the water and another platform on the horizon",
     "focal": [
-      38,
+      50,
       50
     ],
     "hotspots": [
       {
-        "x": 44,
-        "y": 47,
-        "w": 10,
-        "h": 16,
-        "label": "Gloved hands on the rope descender"
-      },
-      {
-        "x": 53,
-        "y": 42,
-        "w": 6,
-        "h": 13,
-        "label": "Second technician on the wall"
+        "x": 33.1,
+        "y": 42.5,
+        "w": 6.4,
+        "h": 11.8,
+        "label": "Two crew at the deck railing"
       }
+    ],
+    "edits": [
+      "cropped"
     ]
   }
 ]
