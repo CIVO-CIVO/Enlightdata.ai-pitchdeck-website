@@ -28,8 +28,8 @@
   --color-on-night-muted: #a1a19c;
 
   /* thermal highlight palette (every reference) */
-  /* the square in the middle of the logo mark (owner's purple try, 19 Nov 2026) */
-  --color-logo: #8a2fc4;
+  /* the square in the middle of the logo mark (owner's purple, matched to the outer purple of the thermal glow, 19 Nov 2026) */
+  --color-logo: #a044a6;
   --color-heat-1: #3a1070;
   --color-heat-2: #6c1a94;
   --color-heat-3: #b02684;
