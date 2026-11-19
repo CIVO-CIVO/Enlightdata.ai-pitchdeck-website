@@ -803,5 +803,111 @@
         "label": "Crew inside the machine"
       }
     ]
+  },
+  {
+    "key": "task-gauge",
+    "file": "task-gauge.jpg",
+    "title": "A Day in the Life of an Inspector",
+    "creator": "Bureau of Safety and Environmental Enforcement (BSEE)",
+    "creatorUrl": "https://www.flickr.com/people/123443813@N05",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Day_in_the_Life_of_an_Inspector_(32372094465).jpg",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "alt": "On a deep-water platform in the Gulf of Mexico, two safety inspectors watch a pressure gauge held up by an operator during a pressure test",
+    "focal": [
+      100,
+      45
+    ],
+    "hotspots": [
+      {
+        "x": 83,
+        "y": 22,
+        "w": 14,
+        "h": 50,
+        "label": "Gloved hands + pressure gauge"
+      }
+    ],
+    "edits": [
+      "company logo and name on a hard hat blurred"
+    ]
+  },
+  {
+    "key": "task-drillfloor",
+    "file": "task-drillfloor.jpg",
+    "title": "Work on the drill floor at the semi-submersible rig Polar Pioneer",
+    "creator": "Vidar Dons Lindrupsen / Norsk olje og gass",
+    "creatorUrl": "https://www.flickr.com/photos/olfnorge/",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Work_on_the_drill_floor_at_the_semi-submersible_rig_Polar_Pioneer.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "alt": "Seen through hanging hydraulic hoses, a roughneck in red coveralls works on the drill floor of a semi-submersible rig in Tromsø, Norway",
+    "focal": [
+      45,
+      50
+    ],
+    "hotspots": [
+      {
+        "x": 35,
+        "y": 41,
+        "w": 13,
+        "h": 24,
+        "label": "Roughneck at the drill floor"
+      }
+    ],
+    "edits": [
+      "equipment-maker sign blurred"
+    ]
+  },
+  {
+    "key": "task-derrick",
+    "file": "task-derrick.jpg",
+    "title": "Derrickmen working at a rig",
+    "creator": "National Institute for Occupational Safety and Health (NIOSH)",
+    "creatorUrl": "https://www.flickr.com/photos/niosh/",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Derrickmen_working_at_a_rig.jpg",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "alt": "Against the sun, derrickmen work on the platform high up a drilling-rig mast in Artesia, New Mexico",
+    "focal": [
+      55,
+      62
+    ],
+    "hotspots": [
+      {
+        "x": 45,
+        "y": 66,
+        "w": 32,
+        "h": 16,
+        "label": "Derrickmen on the platform"
+      }
+    ]
+  },
+  {
+    "key": "task-blade",
+    "file": "task-blade.jpg",
+    "title": "Wind turbine maintenance",
+    "creator": "U.S. Department of Energy",
+    "creatorUrl": "https://www.flickr.com/photos/departmentofenergy/",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wind_turbine_maintenance_(51689968067).jpg",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "alt": "Two rope-access technicians hang on a wind-turbine blade and check sensors fitted near its tip",
+    "focal": [
+      52,
+      50
+    ],
+    "hotspots": [
+      {
+        "x": 43,
+        "y": 45,
+        "w": 16,
+        "h": 13,
+        "label": "Rope-access technicians on the blade"
+      }
+    ]
   }
 ]

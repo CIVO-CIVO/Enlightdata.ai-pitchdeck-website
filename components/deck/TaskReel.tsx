@@ -32,7 +32,8 @@ export function TaskReel({ scenes, start, offset = 0, every = 5200 }: { scenes: 
           </div>
         );
       })}
-      <div className="pointer-events-none absolute left-3 top-3 z-[6] flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.14em] text-white/90">
+      <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 z-[5] h-20 bg-[linear-gradient(180deg,rgba(17,17,17,0.7),rgba(17,17,17,0))]" />
+      <div className="pointer-events-none absolute left-3 top-3 z-[6] flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.14em] text-white [text-shadow:0_1px_3px_rgba(0,0,0,0.6)]">
         <span className="rounded-[3px] bg-accent-night px-1.5 py-[3px] text-on-accent">Task {String(start + i).padStart(2, "0")}</span>
         <span key={i} className="anim-fade">{s.trade}</span>
       </div>

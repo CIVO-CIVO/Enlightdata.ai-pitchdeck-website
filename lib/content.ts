@@ -167,27 +167,31 @@ export type TaskScene = { img: string; trade: string; task: string; call: string
 export const why = {
   eyebrow: "Why skilled work",
   title: "Skilled field work isn't one task. It's thousands.",
-  lead: "Every job is looking, checking and deciding. Experts make these calls in seconds, from years on the job.",
+  lead: "Every job is looking, checking and deciding, from offshore rigs to wind turbines. Experts make these calls in seconds, from years on the job.",
   reels: [
     [
+      { img: "task-blade", trade: "Wind power", task: "Check a blade on ropes", call: "Edge erosion, or a crack?" },
       { img: "task-tamper", trade: "Rail", task: "Check the tamping units", call: "Worn, or good for another shift?" },
+      { img: "task-derrick", trade: "Onshore drilling", task: "Work the derrick platform", call: "Stay up, or come down now?" },
       { img: "task-tbm", trade: "Tunnels", task: "Inspect the boring machine", call: "Fix now, or at the next stop?" },
     ],
     [
+      { img: "task-gauge", trade: "Offshore oil & gas", task: "Witness a pressure test", call: "Holding steady, or a slow leak?" },
       { img: "task-hull", trade: "Marine", task: "Weld the bottom plating", call: "Is the steel behind it sound?" },
       { img: "task-motor", trade: "Rail depot", task: "Refit a traction motor", call: "That noise: normal, or failing?" },
       { img: "task-doubler", trade: "Shipyard", task: "Fit a doubler plate", call: "Patch it, or replace the section?" },
     ],
     [
+      { img: "task-drillfloor", trade: "Offshore drilling", task: "Check the drill floor", call: "Hose chafing, or just dirty?" },
       { img: "task-tower", trade: "Telecom", task: "Climb and inspect the tower", call: "Loose bolt, or just surface rust?" },
       { img: "task-driller", trade: "Oil & gas", task: "Run the rig floor", call: "Pressure spike: act, or watch?" },
     ],
   ] as TaskScene[][],
   ticker: [
-    "Is this crack within limits?", "Hot spot on the insulator", "Weeping, or leaking?", "Check bolt torque", "Bearing too warm?",
-    "Plate thickness test", "Cosmetic, or structural?", "Read the vibration", "Can it wait until shutdown?", "Smell of burnt oil",
-    "Switch blade fit", "Corrosion under the paint?", "Lift, or wait for wind?", "Pipe wall from inside", "Work live, or isolate?",
-    "Replace now", "Watch it", "Fix later", "It's fine",
+    "Is this crack within limits?", "Blade edge erosion", "Weeping, or leaking?", "Gas reading at the wellhead", "Bearing too warm?",
+    "Too windy to climb?", "Cosmetic, or structural?", "Riser flange weeping?", "Gearbox oil: metal flakes?", "Can it wait until shutdown?",
+    "Hot spot on the insulator", "Inverter fault, or a loose plug?", "Tower bolt torque", "Corrosion under the paint?", "Mooring chain wear",
+    "Lift, or wait for wind?", "Pipe wall from inside", "Work live, or isolate?", "Replace now", "Watch it", "Fix later", "It's fine",
   ],
   more: "+ thousands more",
 };

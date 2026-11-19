@@ -10,7 +10,7 @@ export function LogoMark({ className }: { className?: string }) {
     <svg viewBox="0 0 24 24" className={cn("h-6 w-6", className)} aria-hidden>
       <path d="M3.2 10.2V3.2h7" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="square" />
       <path d="M20.8 13.8v7h-7" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="square" />
-      <rect x="9.2" y="9.2" width="5.6" height="5.6" fill="currentColor" />
+      <rect x="9.2" y="9.2" width="5.6" height="5.6" fill="var(--color-logo)" />
     </svg>
   );
 }
