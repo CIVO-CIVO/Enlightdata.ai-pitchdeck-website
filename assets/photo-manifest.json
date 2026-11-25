@@ -1024,31 +1024,28 @@
     ]
   },
   {
-    "key": "hero-platform",
-    "file": "hero-platform.jpg",
-    "title": "Besøk Troll 50",
+    "key": "hero-chain",
+    "file": "hero-chain.jpg",
+    "title": "Besøk Troll 68",
     "creator": "Tommy Ellingsen / Norsk olje og gass",
     "creatorUrl": "https://www.flickr.com/photos/olfnorge/",
     "source": "Flickr",
-    "sourceUrl": "https://www.flickr.com/photos/olfnorge/29938697700/",
+    "sourceUrl": "https://www.flickr.com/photos/olfnorge/29938725640/",
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
-    "alt": "On the Troll A platform in the North Sea, two crew in hard hats and ear defenders stand at the railing of a lower deck that hangs out over the open sea, with stairs leading down towards the water and another platform on the horizon",
+    "alt": "Seen from the worker's own eye line on the Troll A platform in the North Sea: dirty work gloves grip and feed heavy lifting chains, one hand blurred in motion",
     "focal": [
-      50,
+      24,
       50
     ],
     "hotspots": [
       {
-        "x": 33.1,
-        "y": 42.5,
-        "w": 6.4,
-        "h": 11.8,
-        "label": "Two crew at the deck railing"
+        "x": 42,
+        "y": 50,
+        "w": 20,
+        "h": 24,
+        "label": "Gloved fingers gripping the lifting chain"
       }
-    ],
-    "edits": [
-      "cropped"
     ]
   }
 ]
